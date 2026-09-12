@@ -1,0 +1,955 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//race-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Formula E
+X-WR-CALDESC:Formula E - practice\, qualifying and races. Times in UTC\; yo
+ ur calendar app shows them in your time zone.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:formula-e-2026-r1-sao-paulo-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20251206T101000Z
+DTEND:20251206T104000Z
+SUMMARY:FE: Sao Paulo ePrix - Practice 2
+LOCATION:Sao Paulo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r1-sao-paulo-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20251206T124000Z
+DTEND:20251206T134000Z
+SUMMARY:FE: Sao Paulo ePrix - Qualifying
+LOCATION:Sao Paulo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r1-sao-paulo-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20251206T170500Z
+DTEND:20251206T180200Z
+SUMMARY:FE: Sao Paulo ePrix - Race
+LOCATION:Sao Paulo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r2-mexico-city-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260109T220000Z
+DTEND:20260109T224500Z
+SUMMARY:FE: Mexico City ePrix - Practice 1
+LOCATION:Mexico City
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r2-mexico-city-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260110T133000Z
+DTEND:20260110T140000Z
+SUMMARY:FE: Mexico City ePrix - Practice 2
+LOCATION:Mexico City
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r2-mexico-city-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260110T154000Z
+DTEND:20260110T164000Z
+SUMMARY:FE: Mexico City ePrix - Qualifying
+LOCATION:Mexico City
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r2-mexico-city-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260110T200500Z
+DTEND:20260110T210200Z
+SUMMARY:FE: Mexico City ePrix - Race
+LOCATION:Mexico City
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r3-miami-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260130T220000Z
+DTEND:20260130T224500Z
+SUMMARY:FE: Miami ePrix - Practice 1
+LOCATION:Miami IA
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r3-miami-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260131T123000Z
+DTEND:20260131T130000Z
+SUMMARY:FE: Miami ePrix - Practice 2
+LOCATION:Miami IA
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r3-miami-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260131T144000Z
+DTEND:20260131T154000Z
+SUMMARY:FE: Miami ePrix - Qualifying
+LOCATION:Miami IA
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r3-miami-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260131T190500Z
+DTEND:20260131T200200Z
+SUMMARY:FE: Miami ePrix - Race
+LOCATION:Miami IA
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r4-jeddah-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260212T170000Z
+DTEND:20260212T174500Z
+SUMMARY:FE: Jeddah ePrix - Practice 1
+LOCATION:Jeddah
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r4-jeddah-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260213T103000Z
+DTEND:20260213T110000Z
+SUMMARY:FE: Jeddah ePrix - Practice 2
+LOCATION:Jeddah
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r4-jeddah-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260213T124000Z
+DTEND:20260213T134000Z
+SUMMARY:FE: Jeddah ePrix - Qualifying
+LOCATION:Jeddah
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r4-jeddah-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260213T170500Z
+DTEND:20260213T180200Z
+SUMMARY:FE: Jeddah ePrix - Race
+LOCATION:Jeddah
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r5-jeddah-eprix-practice3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260214T103000Z
+DTEND:20260214T111500Z
+SUMMARY:FE: Jeddah ePrix - Practice 3
+LOCATION:Jeddah
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r5-jeddah-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260214T124000Z
+DTEND:20260214T134000Z
+SUMMARY:FE: Jeddah ePrix - Qualifying
+LOCATION:Jeddah
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r5-jeddah-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260214T170500Z
+DTEND:20260214T180200Z
+SUMMARY:FE: Jeddah ePrix - Race
+LOCATION:Jeddah
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r6-madrid-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260320T153000Z
+DTEND:20260320T161500Z
+SUMMARY:FE: Madrid ePrix - Practice 1
+LOCATION:Jarama
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r6-madrid-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260321T073000Z
+DTEND:20260321T080000Z
+SUMMARY:FE: Madrid ePrix - Practice 2
+LOCATION:Jarama
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r6-madrid-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260321T094000Z
+DTEND:20260321T104000Z
+SUMMARY:FE: Madrid ePrix - Qualifying
+LOCATION:Jarama
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r6-madrid-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260321T140500Z
+DTEND:20260321T150200Z
+SUMMARY:FE: Madrid ePrix - Race
+LOCATION:Jarama
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r7-berlin-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260501T140000Z
+DTEND:20260501T144500Z
+SUMMARY:FE: Berlin ePrix - Practice 1
+LOCATION:Berlin
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r7-berlin-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260502T073000Z
+DTEND:20260502T080000Z
+SUMMARY:FE: Berlin ePrix - Practice 2
+LOCATION:Berlin
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r7-berlin-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260502T094000Z
+DTEND:20260502T104000Z
+SUMMARY:FE: Berlin ePrix - Qualifying
+LOCATION:Berlin
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r7-berlin-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260502T140500Z
+DTEND:20260502T150200Z
+SUMMARY:FE: Berlin ePrix - Race
+LOCATION:Berlin
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r8-berlin-eprix-practice3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260503T073000Z
+DTEND:20260503T081500Z
+SUMMARY:FE: Berlin ePrix - Practice 3
+LOCATION:Berlin
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r8-berlin-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260503T094000Z
+DTEND:20260503T104000Z
+SUMMARY:FE: Berlin ePrix - Qualifying
+LOCATION:Berlin
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r8-berlin-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260503T140500Z
+DTEND:20260503T150200Z
+SUMMARY:FE: Berlin ePrix - Race
+LOCATION:Berlin
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r9-monaco-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260516T053000Z
+DTEND:20260516T061500Z
+SUMMARY:FE: Monaco ePrix - Practice 1
+LOCATION:Monte Carlo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r9-monaco-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260516T071000Z
+DTEND:20260516T074000Z
+SUMMARY:FE: Monaco ePrix - Practice 2
+LOCATION:Monte Carlo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r9-monaco-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260516T084000Z
+DTEND:20260516T094000Z
+SUMMARY:FE: Monaco ePrix - Qualifying
+LOCATION:Monte Carlo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r9-monaco-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260516T130500Z
+DTEND:20260516T140200Z
+SUMMARY:FE: Monaco ePrix - Race
+LOCATION:Monte Carlo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r10-monaco-eprix-practice3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260517T063000Z
+DTEND:20260517T071500Z
+SUMMARY:FE: Monaco ePrix - Practice 3
+LOCATION:Monte Carlo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r10-monaco-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260517T084000Z
+DTEND:20260517T094000Z
+SUMMARY:FE: Monaco ePrix - Qualifying
+LOCATION:Monte Carlo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r10-monaco-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260517T130500Z
+DTEND:20260517T140200Z
+SUMMARY:FE: Monaco ePrix - Race
+LOCATION:Monte Carlo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r11-sanya-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260619T083000Z
+DTEND:20260619T091500Z
+SUMMARY:FE: Sanya ePrix - Practice 1
+LOCATION:Sanya
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r11-sanya-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260620T003000Z
+DTEND:20260620T010000Z
+SUMMARY:FE: Sanya ePrix - Practice 2
+LOCATION:Sanya
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r11-sanya-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260620T024000Z
+DTEND:20260620T034000Z
+SUMMARY:FE: Sanya ePrix - Qualifying
+LOCATION:Sanya
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r11-sanya-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260620T070500Z
+DTEND:20260620T080200Z
+SUMMARY:FE: Sanya ePrix - Race
+LOCATION:Sanya
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r12-shanghai-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260703T080000Z
+DTEND:20260703T084500Z
+SUMMARY:FE: Shanghai ePrix - Practice 1
+LOCATION:Shanghai
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r12-shanghai-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260703T220000Z
+DTEND:20260703T223000Z
+SUMMARY:FE: Shanghai ePrix - Practice 2
+LOCATION:Shanghai
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r12-shanghai-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260704T000000Z
+DTEND:20260704T010000Z
+SUMMARY:FE: Shanghai ePrix - Qualifying
+LOCATION:Shanghai
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r12-shanghai-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260704T040500Z
+DTEND:20260704T050200Z
+SUMMARY:FE: Shanghai ePrix - Race
+LOCATION:Shanghai
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r13-shanghai-eprix-practice3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260704T220000Z
+DTEND:20260704T224500Z
+SUMMARY:FE: Shanghai ePrix - Practice 3
+LOCATION:Shanghai
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r13-shanghai-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260705T000000Z
+DTEND:20260705T010000Z
+SUMMARY:FE: Shanghai ePrix - Qualifying
+LOCATION:Shanghai
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r13-shanghai-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260705T040500Z
+DTEND:20260705T050200Z
+SUMMARY:FE: Shanghai ePrix - Race
+LOCATION:Shanghai
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r14-tokyo-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260724T100000Z
+DTEND:20260724T104500Z
+SUMMARY:FE: Tokyo ePrix - Practice 1
+LOCATION:Tokyo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r14-tokyo-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260725T043000Z
+DTEND:20260725T050000Z
+SUMMARY:FE: Tokyo ePrix - Practice 2
+LOCATION:Tokyo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r14-tokyo-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260725T064000Z
+DTEND:20260725T074000Z
+SUMMARY:FE: Tokyo ePrix - Qualifying
+LOCATION:Tokyo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r14-tokyo-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260725T110500Z
+DTEND:20260725T120200Z
+SUMMARY:FE: Tokyo ePrix - Race
+LOCATION:Tokyo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r15-tokyo-eprix-practice3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260726T043000Z
+DTEND:20260726T051500Z
+SUMMARY:FE: Tokyo ePrix - Practice 3
+LOCATION:Tokyo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r15-tokyo-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260726T064000Z
+DTEND:20260726T074000Z
+SUMMARY:FE: Tokyo ePrix - Qualifying
+LOCATION:Tokyo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r15-tokyo-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260726T110500Z
+DTEND:20260726T120200Z
+SUMMARY:FE: Tokyo ePrix - Race
+LOCATION:Tokyo
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r16-london-eprix-practice1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260814T150000Z
+DTEND:20260814T154500Z
+SUMMARY:FE: London ePrix - Practice 1
+LOCATION:London
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r16-london-eprix-practice2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260815T073000Z
+DTEND:20260815T080000Z
+SUMMARY:FE: London ePrix - Practice 2
+LOCATION:London
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r16-london-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260815T094000Z
+DTEND:20260815T104000Z
+SUMMARY:FE: London ePrix - Qualifying
+LOCATION:London
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r16-london-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260815T140500Z
+DTEND:20260815T150200Z
+SUMMARY:FE: London ePrix - Race
+LOCATION:London
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r17-london-eprix-practice3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260816T073000Z
+DTEND:20260816T081500Z
+SUMMARY:FE: London ePrix - Practice 3
+LOCATION:London
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r17-london-eprix-qualifying@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260816T094000Z
+DTEND:20260816T104000Z
+SUMMARY:FE: London ePrix - Qualifying
+LOCATION:London
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2026-r17-london-eprix-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260816T140500Z
+DTEND:20260816T150200Z
+SUMMARY:FE: London ePrix - Race
+LOCATION:London
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-jeddah-e-prix-round-1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:FE: Jeddah E-Prix\, Round 1 (times TBA)
+LOCATION:Jeddah Corniche Circuit\, Saudi Arabia
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-jeddah-e-prix-round-2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:FE: Jeddah E-Prix\, Round 2 (times TBA)
+LOCATION:Jeddah Corniche Circuit\, Saudi Arabia
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-mexico-city-e-prix-round-3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:FE: Mexico City E-Prix\, Round 3 (times TBA)
+LOCATION:Autódromo Hermanos Rodríguez\, Mexico
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-austin-e-prix-round-4@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:FE: Austin E-Prix\, Round 4 (times TBA)
+LOCATION:Circuit of The Americas\, USA
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-miami-e-prix-round-5@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:FE: Miami E-Prix\, Round 5 (times TBA)
+LOCATION:Miami International Autodrome\, USA
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-s-o-paulo-e-prix-round-6@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:FE: São Paulo E-Prix\, Round 6 (times TBA)
+LOCATION:Anhembi Sambadrome Circuit\, Brazil
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-sanya-e-prix-round-7@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:FE: Sanya E-Prix\, Round 7 (times TBA)
+LOCATION:Haitang Bay Circuit\, China
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-berlin-e-prix-round-8@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:FE: Berlin E-Prix\, Round 8 (times TBA)
+LOCATION:Tempelhof Airport Street Circuit\, Germany
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-berlin-e-prix-round-9@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:FE: Berlin E-Prix\, Round 9 (times TBA)
+LOCATION:Tempelhof Airport Street Circuit\, Germany
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-monaco-e-prix-round-10@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:FE: Monaco E-Prix\, Round 10 (times TBA)
+LOCATION:Circuit de Monaco
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-monaco-e-prix-round-11@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:FE: Monaco E-Prix\, Round 11 (times TBA)
+LOCATION:Circuit de Monaco
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-london-e-prix-round-12@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:FE: London E-Prix\, Round 12 (times TBA)
+LOCATION:Brands Hatch\, UK
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-london-e-prix-round-13@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:FE: London E-Prix\, Round 13 (times TBA)
+LOCATION:Brands Hatch\, UK
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-zandvoort-e-prix-round-14@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:FE: Zandvoort E-Prix\, Round 14 (times TBA)
+LOCATION:MASCOT Zandvoort Circuit\, Netherlands
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-zandvoort-e-prix-round-15@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:FE: Zandvoort E-Prix\, Round 15 (times TBA)
+LOCATION:MASCOT Zandvoort Circuit\, Netherlands
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-madrid-e-prix-round-16@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:FE: Madrid E-Prix\, Round 16 (times TBA)
+LOCATION:Circuito de Madrid Jarama-RACE\, Spain
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-madrid-e-prix-round-17@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:FE: Madrid E-Prix\, Round 17 (times TBA)
+LOCATION:Circuito de Madrid Jarama-RACE\, Spain
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-shanghai-e-prix-round-18@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:FE: Shanghai E-Prix\, Round 18 (times TBA)
+LOCATION:Shanghai International Circuit\, China
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-shanghai-e-prix-round-19@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:FE: Shanghai E-Prix\, Round 19 (times TBA)
+LOCATION:Shanghai International Circuit\, China
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-tokyo-e-prix-round-20@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:FE: Tokyo E-Prix\, Round 20 (times TBA)
+LOCATION:Tokyo Street Circuit\, Japan
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+BEGIN:VEVENT
+UID:formula-e-2027-tokyo-e-prix-round-21@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:FE: Tokyo E-Prix\, Round 21 (times TBA)
+LOCATION:Tokyo Street Circuit\, Japan
+DESCRIPTION:Source: https://www.fiaformulae.com/en/news/1074657/formula-e-a
+ nd-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era (check
+ ed 2026-09-10). Session times not published yet.
+URL:https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-re
+ cord-breaking-21-race-2026-27-calendar-for-gen4-era
+END:VEVENT
+END:VCALENDAR

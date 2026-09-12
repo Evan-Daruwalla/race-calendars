@@ -1,0 +1,63 @@
+# NASCAR Cup Series. 2027 entries come from the race data on nascar.com's 2027 schedule page:
+# dates only (every time on that page is midnight), so they are all-day events until NASCAR sets
+# start times. Two names are cleaned from the source: "NSCAR" -> "NASCAR" (typo on the page) and
+# "Toyota \/ Save Mart 350" -> "Toyota / Save Mart 350" (escaped slash).
+# 2026 remaining races: green-flag times from the race data on nascar.com's 2026 schedule page.
+# The page shows them as "3:00 PM ET" (checked in a browser 2026-09-10), so they are entered
+# with Eastern offsets: EDT (-04:00) through 2026-10-25, EST (-05:00) from 2026-11-01 (DST ends
+# 2026-11-01 at 02:00). The data has no practice or qualifying times, so races only. NASCAR
+# publishes no race length in hours; end times use the 210-minute default below (an estimate).
+checked = 2026-09-10
+source = "https://www.nascar.com/nascar-cup-series/2027/schedule/"
+default_minutes = { race = 210 }
+event = [
+  { season = 2026, name = "Enjoy Illinois 300", location = "World Wide Technology Raceway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-09-13T15:00:00-04:00 }] },
+  { season = 2026, name = "Bass Pro Shops Night Race", location = "Bristol Motor Speedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-09-19T19:30:00-04:00 }] },
+  { season = 2026, name = "Hollywood Casino 400", location = "Kansas Speedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-09-27T15:00:00-04:00 }] },
+  { season = 2026, name = "South Point 400", location = "Las Vegas Motor Speedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-10-04T17:30:00-04:00 }] },
+  { season = 2026, name = "Bank of America 400", location = "Charlotte Motor Speedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-10-11T15:00:00-04:00 }] },
+  { season = 2026, name = "Freeway Insurance 500", location = "Phoenix Raceway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-10-18T15:00:00-04:00 }] },
+  { season = 2026, name = "YellaWood 500", location = "Talladega Superspeedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-10-25T14:00:00-04:00 }] },
+  { season = 2026, name = "Xfinity 500", location = "Martinsville Speedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-11-01T14:00:00-05:00 }] },
+  { season = 2026, name = "NASCAR Championship Race", location = "Homestead-Miami Speedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-11-08T15:00:00-05:00 }] },
+  { season = 2027, date = 2027-02-13, name = "Wheatley Vodka Clash", location = "Daytona International Speedway" },
+  { season = 2027, date = 2027-02-18, name = "Duel 1 at DAYTONA", location = "Daytona International Speedway" },
+  { season = 2027, date = 2027-02-18, name = "Duel 2 at DAYTONA", location = "Daytona International Speedway" },
+  { season = 2027, date = 2027-02-21, name = "DAYTONA 500", location = "Daytona International Speedway" },
+  { season = 2027, date = 2027-02-28, name = "NASCAR Cup Series Race at Atlanta (February)", location = "Atlanta Motor Speedway" },
+  { season = 2027, date = 2027-03-07, name = "NASCAR Cup Series Race at COTA", location = "Circuit of The Americas" },
+  { season = 2027, date = 2027-03-14, name = "NASCAR Cup Series Race at Phoenix (March)", location = "Phoenix Raceway" },
+  { season = 2027, date = 2027-03-21, name = "Pennzoil 400", location = "Las Vegas Motor Speedway" },
+  { season = 2027, date = 2027-04-04, name = "NASCAR Cup Series Race at Darlington (April)", location = "Darlington Raceway" },
+  { season = 2027, date = 2027-04-11, name = "Food City 500", location = "Bristol Motor Speedway" },
+  { season = 2027, date = 2027-04-18, name = "NASCAR Cup Series Race at Martinsville (April)", location = "Martinsville Speedway" },
+  { season = 2027, date = 2027-04-25, name = "NASCAR Cup Series Race at Talladega (April)", location = "Talladega Superspeedway" },
+  { season = 2027, date = 2027-05-02, name = "NASCAR Cup Series Race at Texas", location = "Texas Motor Speedway" },
+  { season = 2027, date = 2027-05-09, name = "NASCAR Cup Series Race at Kansas (May)", location = "Kansas Speedway" },
+  { season = 2027, date = 2027-05-16, name = "NASCAR Cup Series Race at Dover", location = "Dover Motor Speedway" },
+  { season = 2027, date = 2027-05-23, name = "NASCAR Cup Series All-Star Race", location = "North Wilkesboro Speedway" },
+  { season = 2027, date = 2027-05-30, name = "Coca-Cola 600", location = "Charlotte Motor Speedway" },
+  { season = 2027, date = 2027-06-06, name = "Cracker Barrel 400", location = "Nashville Superspeedway" },
+  { season = 2027, date = 2027-06-13, name = "NASCAR Cup Series Race at Pocono", location = "Pocono Raceway" },
+  { season = 2027, date = 2027-06-20, name = "NASCAR Cup Series Race at Michigan", location = "Michigan International Speedway" },
+  { season = 2027, date = 2027-06-27, name = "NASCAR Cup Series Race at Chicago", location = "Chicagoland Speedway" },
+  { season = 2027, date = 2027-07-04, name = "NASCAR Cup Series Race at Iowa", location = "Iowa Speedway" },
+  { season = 2027, date = 2027-07-11, name = "Toyota / Save Mart 350", location = "Sonoma Raceway" },
+  { season = 2027, date = 2027-07-18, name = "NASCAR Cup Series Race at Atlanta (July)", location = "Atlanta Motor Speedway" },
+  { season = 2027, date = 2027-07-25, name = "NASCAR Cup Series Race at Indianapolis", location = "Indianapolis Motor Speedway" },
+  { season = 2027, date = 2027-08-01, name = "NASCAR Cup Series Race at San Diego", location = "San Diego Street Course" },
+  { season = 2027, date = 2027-08-14, name = "Bristol Night Race", location = "Bristol Motor Speedway" },
+  { season = 2027, date = 2027-08-22, name = "NASCAR Cup Series Race at WWTR", location = "World Wide Technology Raceway" },
+  { season = 2027, date = 2027-08-28, name = "Coke Zero Sugar 400", location = "Daytona International Speedway" },
+  { season = 2027, date = 2027-09-05, name = "Southern 500", location = "Darlington Raceway" },
+  { season = 2027, date = 2027-09-11, name = "NASCAR Cup Series Race at Richmond", location = "Richmond Raceway" },
+  { season = 2027, date = 2027-09-19, name = "NASCAR Cup Series Race at Watkins Glen", location = "Watkins Glen International" },
+  { season = 2027, date = 2027-09-26, name = "NASCAR Cup Series Race at New Hampshire", location = "New Hampshire Motor Speedway" },
+  { season = 2027, date = 2027-10-03, name = "NASCAR Cup Series Race at Kansas (October)", location = "Kansas Speedway" },
+  { season = 2027, date = 2027-10-10, name = "South Point 400", location = "Las Vegas Motor Speedway" },
+  { season = 2027, date = 2027-10-17, name = "Bank of America 400", location = "Charlotte Motor Speedway" },
+  { season = 2027, date = 2027-10-24, name = "NASCAR Cup Series Race at Phoenix (October)", location = "Phoenix Raceway" },
+  { season = 2027, date = 2027-10-31, name = "NASCAR Cup Series Race at Talladega (October)", location = "Talladega Superspeedway" },
+  { season = 2027, date = 2027-11-07, name = "NASCAR Cup Series Race at Martinsville (November)", location = "Martinsville Speedway" },
+  { season = 2027, date = 2027-11-14, name = "NASCAR Cup Series Championship Race", location = "Homestead-Miami Speedway" },
+]

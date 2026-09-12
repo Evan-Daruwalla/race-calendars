@@ -1,0 +1,15 @@
+# IndyCar 2027, Phase One (first 8 races) from indycar.com, published 2026-08-12. Race days
+# only: "Tune-in times for next season's events will be announced at a later date." These drop
+# out automatically once sportstimes publishes indycar/2027.json with session times.
+checked = 2026-09-10
+source = "https://www.indycar.com/news/2026/08/08-12-early-2027-sked"
+event = [
+  { season = 2027, date = 2027-03-07, name = "Streets of St. Petersburg", location = "St. Petersburg, Florida" },
+  { season = 2027, date = 2027-03-13, name = "Phoenix Raceway", location = "Phoenix, Arizona" },
+  { season = 2027, date = 2027-03-21, name = "Streets of Arlington", location = "Arlington, Texas" },
+  { season = 2027, date = 2027-04-04, name = "Barber Motorsports Park", location = "Birmingham, Alabama" },
+  { season = 2027, date = 2027-04-18, name = "Acura Grand Prix of Long Beach", location = "Long Beach, California" },
+  { season = 2027, date = 2027-05-15, name = "Indianapolis Motor Speedway Road Course", location = "Indianapolis, Indiana" },
+  { season = 2027, date = 2027-05-30, name = "Indianapolis 500", location = "Indianapolis Motor Speedway" },
+  { season = 2027, date = 2027-06-06, name = "Chevrolet Detroit Grand Prix", location = "Detroit, Michigan" },
+]

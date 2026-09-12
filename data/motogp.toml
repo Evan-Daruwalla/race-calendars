@@ -1,0 +1,7 @@
+# MotoGP 2027: only the opener is announced so far (motogp.com, 2026-09-02).
+# Drops out automatically once sportstimes publishes motogp/2027.json with full session times.
+checked = 2026-09-10
+source = "https://www.motogp.com/en/news/2026/09/02/2027-motogp-pre-season-dates-confirmed/1088122"
+event = [
+  { season = 2027, start_date = 2027-03-05, end_date = 2027-03-07, name = "Thai GP", location = "Buriram, Thailand" },
+]

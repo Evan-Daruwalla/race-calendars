@@ -1,0 +1,412 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//race-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FIA World Endurance Championship
+X-WR-CALDESC:FIA World Endurance Championship - practice\, qualifying and r
+ aces. Times in UTC\; your calendar app shows them in your time zone.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-free-practice-1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260925T011500Z
+DTEND:20260925T021500Z
+SUMMARY:WEC: 6 Hours of Fuji - Free Practice 1
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-free-practice-2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260925T053000Z
+DTEND:20260925T063000Z
+SUMMARY:WEC: 6 Hours of Fuji - Free Practice 2
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-free-practice-3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260926T003000Z
+DTEND:20260926T013000Z
+SUMMARY:WEC: 6 Hours of Fuji - Free Practice 3
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-qualifying-lmgt3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260926T050000Z
+DTEND:20260926T052000Z
+SUMMARY:WEC: 6 Hours of Fuji - Qualifying - LMGT3
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-hyperpole-lmgt3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260926T052000Z
+DTEND:20260926T054000Z
+SUMMARY:WEC: 6 Hours of Fuji - Hyperpole - LMGT3
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-qualifying-hypercar@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260926T054000Z
+DTEND:20260926T060000Z
+SUMMARY:WEC: 6 Hours of Fuji - Qualifying - Hypercar
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-hyperpole-hypercar@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260926T060000Z
+DTEND:20260926T062000Z
+SUMMARY:WEC: 6 Hours of Fuji - Hyperpole - Hypercar
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-fuji-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260927T020000Z
+DTEND:20260927T080000Z
+SUMMARY:WEC: 6 Hours of Fuji - Race
+LOCATION:Fuji Speedway\, Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
+ ecked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-free-practice-1@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261016T090000Z
+DTEND:20261016T100000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Free Practice 1
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-free-practice-2@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261016T135000Z
+DTEND:20261016T145000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Free Practice 2
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-free-practice-3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261017T081000Z
+DTEND:20261017T091000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Free Practice 3
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-qualifying-lmgt3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261017T095000Z
+DTEND:20261017T101000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Qualifying - LMGT3
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-hyperpole-lmgt3@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261017T101000Z
+DTEND:20261017T103000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Hyperpole - LMGT3
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-qualifying-hypercar@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261017T103000Z
+DTEND:20261017T105000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Qualifying - Hypercar
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-hyperpole-hypercar@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261017T105000Z
+DTEND:20261017T111000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Hyperpole - Hypercar
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-6-hours-of-barcelona-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261018T100000Z
+DTEND:20261018T160000Z
+SUMMARY:WEC: 6 Hours of Barcelona - Race
+LOCATION:Circuit de Barcelona-Catalunya\, Spain
+DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
+ 6 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-free-practice-1@race-calenda
+ rs
+DTSTAMP:20260910T000000Z
+DTSTART:20261105T091500Z
+DTEND:20261105T101500Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Free Practice 1
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-free-practice-2@race-calenda
+ rs
+DTSTAMP:20260910T000000Z
+DTSTART:20261105T140000Z
+DTEND:20261105T150000Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Free Practice 2
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-free-practice-3@race-calenda
+ rs
+DTSTAMP:20260910T000000Z
+DTSTART:20261106T090000Z
+DTEND:20261106T100000Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Free Practice 3
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10). End time is an estimate.
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-qualifying-lmgt3@race-calend
+ ars
+DTSTAMP:20260910T000000Z
+DTSTART:20261106T130000Z
+DTEND:20261106T132000Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Qualifying - LMGT3
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-hyperpole-lmgt3@race-calenda
+ rs
+DTSTAMP:20260910T000000Z
+DTSTART:20261106T132000Z
+DTEND:20261106T134000Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Hyperpole - LMGT3
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-qualifying-hypercar@race-cal
+ endars
+DTSTAMP:20260910T000000Z
+DTSTART:20261106T134000Z
+DTEND:20261106T140000Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Qualifying - Hypercar
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-hyperpole-hypercar@race-cale
+ ndars
+DTSTAMP:20260910T000000Z
+DTSTART:20261106T140000Z
+DTEND:20261106T142000Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Hyperpole - Hypercar
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2026-bapco-energies-8-hours-of-bahrain-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261107T110000Z
+DTEND:20261107T190000Z
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain - Race
+LOCATION:Bahrain International Circuit
+DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
+ f-bahrain-2026 (checked 2026-09-10).
+URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-official-prologue-test@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270323
+SUMMARY:WEC: Official Prologue (test) (times TBA)
+LOCATION:Lusail International Circuit\, Qatar
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-qatar-1812km@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270328
+SUMMARY:WEC: Qatar 1812km (times TBA)
+LOCATION:Qatar
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-6-hours-of-imola@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270412
+SUMMARY:WEC: 6 Hours of Imola (times TBA)
+LOCATION:Italy
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-6-hours-of-silverstone@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270426
+SUMMARY:WEC: 6 Hours of Silverstone (times TBA)
+LOCATION:Great Britain
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-totalenergies-6-hours-of-spa-francorchamps@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270516
+SUMMARY:WEC: TotalEnergies 6 Hours of Spa-Francorchamps (times TBA)
+LOCATION:Belgium
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-24-hours-of-le-mans@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270614
+SUMMARY:WEC: 24 Hours of Le Mans (times TBA)
+LOCATION:France
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-rolex-6-hours-of-s-o-paulo@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:WEC: Rolex 6 Hours of São Paulo (times TBA)
+LOCATION:Brazil
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-lone-star-le-mans@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270913
+SUMMARY:WEC: Lone Star Le Mans (times TBA)
+LOCATION:USA
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-6-hours-of-fuji@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270927
+SUMMARY:WEC: 6 Hours of Fuji (times TBA)
+LOCATION:Japan
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+BEGIN:VEVENT
+UID:wec-2027-bapco-energies-8-hours-of-bahrain@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271107
+SUMMARY:WEC: Bapco Energies 8 Hours of Bahrain (times TBA)
+LOCATION:Bahrain
+DESCRIPTION:Source: https://www.fiawec.com/en/news/fia-wec-reveals-nine-rou
+ nd-2027-calendar-as-series-expands/13598 (checked 2026-09-10). Session tim
+ es not published yet.
+URL:https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar
+ -as-series-expands/13598
+END:VEVENT
+END:VCALENDAR

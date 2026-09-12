@@ -1,0 +1,11 @@
+# FIA World Rally Championship. Remaining 2026 rounds as listed on wrc.com/en/calendar
+# (read in a browser 2026-09-10; the site blocks plain HTTP clients). Rallies run over several
+# days of stages, so each is an all-day event spanning the rally. The 2027 calendar is not
+# published yet.
+checked = 2026-09-10
+source = "https://www.wrc.com/en/calendar"
+event = [
+  { season = 2026, start_date = 2026-09-10, end_date = 2026-09-13, name = "Rally Chile Bio Bío", location = "Chile" },
+  { season = 2026, start_date = 2026-10-01, end_date = 2026-10-04, name = "Rally Italia Sardegna", location = "Sardinia, Italy" },
+  { season = 2026, start_date = 2026-11-11, end_date = 2026-11-14, name = "Rally Saudi Arabia", location = "Saudi Arabia" },
+]

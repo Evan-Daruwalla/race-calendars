@@ -1,0 +1,21 @@
+# IMSA WeatherTech SportsCar Championship.
+# Dates as listed on imsa.com's schedule pages. Those pages list event dates but no start
+# times, so each is an all-day event until IMSA publishes session times.
+# The 2027 page shows month and day only; the year comes from the page itself (its 2027 schedule).
+checked = 2026-09-10
+source = "https://www.imsa.com/weathertech/2027-schedule/"
+event = [
+  { season = 2026, start_date = 2026-09-18, end_date = 2026-09-20, name = "TireRack.com Battle On The Bricks", source = "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
+  { season = 2026, start_date = 2026-09-30, end_date = 2026-10-03, name = "Motul Petit Le Mans", source = "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
+  { season = 2027, start_date = 2027-01-28, end_date = 2027-01-31, name = "Rolex 24 At DAYTONA" },
+  { season = 2027, start_date = 2027-03-17, end_date = 2027-03-20, name = "Mobil 1 Twelve Hours of Sebring" },
+  { season = 2027, start_date = 2027-04-16, end_date = 2027-04-17, name = "Acura Grand Prix of Long Beach" },
+  { season = 2027, start_date = 2027-04-30, end_date = 2027-05-02, name = "WeatherTech Raceway Laguna Seca" },
+  { season = 2027, start_date = 2027-06-04, end_date = 2027-06-05, name = "Chevrolet Detroit Grand Prix Presented By Lear" },
+  { season = 2027, start_date = 2027-06-24, end_date = 2027-06-27, name = "Sahlen's Six Hours of The Glen" },
+  { season = 2027, start_date = 2027-07-09, end_date = 2027-07-11, name = "Chevrolet Grand Prix" },
+  { season = 2027, start_date = 2027-08-05, end_date = 2027-08-08, name = "Motul SportsCar Endurance Grand Prix" },
+  { season = 2027, start_date = 2027-08-20, end_date = 2027-08-22, name = "Michelin GT Challenge at VIR" },
+  { season = 2027, start_date = 2027-09-17, end_date = 2027-09-19, name = "TireRack.com Battle On The Bricks" },
+  { season = 2027, start_date = 2027-10-06, end_date = 2027-10-09, name = "Motul Petit Le Mans" },
+]

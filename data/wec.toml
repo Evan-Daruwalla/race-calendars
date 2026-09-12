@@ -1,0 +1,137 @@
+# FIA World Endurance Championship.
+# 2027: the calendar announced on fiawec.com on 2026-06-12 (prologue test + 9 rounds). Dates
+# only, so these are all-day events until WEC publishes session times.
+# 2026 remaining rounds: session times from the schema.org event data on each fiawec.com race
+# page (times carry their own UTC offset). Race lengths come from the race names (6 Hours = 360
+# min, 8 Hours = 480 min). Practice and qualifying end times use the 60-minute default (an estimate).
+checked = 2026-09-10
+source = "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598"
+
+[[event]]
+season = 2027
+name = "Official Prologue (test)"
+location = "Lusail International Circuit, Qatar"
+start_date = 2027-03-21
+end_date = 2027-03-22
+
+[[event]]
+season = 2027
+name = "Qatar 1812km"
+location = "Qatar"
+start_date = 2027-03-25
+end_date = 2027-03-27
+
+[[event]]
+season = 2027
+name = "6 Hours of Imola"
+location = "Italy"
+start_date = 2027-04-09
+end_date = 2027-04-11
+
+[[event]]
+season = 2027
+name = "6 Hours of Silverstone"
+location = "Great Britain"
+start_date = 2027-04-23
+end_date = 2027-04-25
+
+[[event]]
+season = 2027
+name = "TotalEnergies 6 Hours of Spa-Francorchamps"
+location = "Belgium"
+start_date = 2027-05-13
+end_date = 2027-05-15
+
+[[event]]
+season = 2027
+name = "24 Hours of Le Mans"
+location = "France"
+start_date = 2027-06-09
+end_date = 2027-06-13
+
+[[event]]
+season = 2027
+name = "Rolex 6 Hours of São Paulo"
+location = "Brazil"
+start_date = 2027-07-09
+end_date = 2027-07-11
+
+[[event]]
+season = 2027
+name = "Lone Star Le Mans"
+location = "USA"
+start_date = 2027-09-10
+end_date = 2027-09-12
+
+[[event]]
+season = 2027
+name = "6 Hours of Fuji"
+location = "Japan"
+start_date = 2027-09-24
+end_date = 2027-09-26
+
+[[event]]
+season = 2027
+name = "Bapco Energies 8 Hours of Bahrain"
+location = "Bahrain"
+start_date = 2027-11-04
+end_date = 2027-11-06
+
+# --- 2026 remaining rounds (sessions) ---
+# TIME-ZONE TRAP (verified 2026-09-11 ~04:12 UTC): the startDate values on fiawec.com race pages
+# carry a Paris offset (+02:00 / +01:00), but the clock time is the TRACK's local time. Each page's
+# live countdown proves it:
+#   Fuji FP1 countdown -> 01:14 UTC = 10:15 Japan time (the label would give 08:15 UTC)
+#   Bahrain FP1        -> 09:15 UTC = 12:15 Bahrain time (the label would give 11:15 UTC)
+#   Barcelona FP1      -> 09:00 UTC (same either way: Spain uses Paris time)
+# So the times below are the published clock times with the track's real offset.
+# Qualifying/Hyperpole minutes (20) = the published gap between consecutive session starts.
+# The final Hyperpole's 20 is an estimate; practice uses the 60-minute default (an estimate).
+
+[[event]]
+season = 2026
+name = "6 Hours of Fuji"
+location = "Fuji Speedway, Japan"
+source = "https://www.fiawec.com/en/race/6-hours-of-fuji-2026"
+session = [
+  { name = "Free Practice 1", start = 2026-09-25T10:15:00+09:00 },
+  { name = "Free Practice 2", start = 2026-09-25T14:30:00+09:00 },
+  { name = "Free Practice 3", start = 2026-09-26T09:30:00+09:00 },
+  { name = "Qualifying - LMGT3", start = 2026-09-26T14:00:00+09:00, minutes = 20 },
+  { name = "Hyperpole - LMGT3", start = 2026-09-26T14:20:00+09:00, minutes = 20 },
+  { name = "Qualifying - Hypercar", start = 2026-09-26T14:40:00+09:00, minutes = 20 },
+  { name = "Hyperpole - Hypercar", start = 2026-09-26T15:00:00+09:00, minutes = 20 },
+  { name = "Race", start = 2026-09-27T11:00:00+09:00, minutes = 360 },
+]
+
+[[event]]
+season = 2026
+name = "6 Hours of Barcelona"
+location = "Circuit de Barcelona-Catalunya, Spain"
+source = "https://www.fiawec.com/en/race/6-hours-of-barcelona-2026"
+session = [
+  { name = "Free Practice 1", start = 2026-10-16T11:00:00+02:00 },
+  { name = "Free Practice 2", start = 2026-10-16T15:50:00+02:00 },
+  { name = "Free Practice 3", start = 2026-10-17T10:10:00+02:00 },
+  { name = "Qualifying - LMGT3", start = 2026-10-17T11:50:00+02:00, minutes = 20 },
+  { name = "Hyperpole - LMGT3", start = 2026-10-17T12:10:00+02:00, minutes = 20 },
+  { name = "Qualifying - Hypercar", start = 2026-10-17T12:30:00+02:00, minutes = 20 },
+  { name = "Hyperpole - Hypercar", start = 2026-10-17T12:50:00+02:00, minutes = 20 },
+  { name = "Race", start = 2026-10-18T12:00:00+02:00, minutes = 360 },
+]
+
+[[event]]
+season = 2026
+name = "Bapco Energies 8 Hours of Bahrain"
+location = "Bahrain International Circuit"
+source = "https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026"
+session = [
+  { name = "Free Practice 1", start = 2026-11-05T12:15:00+03:00 },
+  { name = "Free Practice 2", start = 2026-11-05T17:00:00+03:00 },
+  { name = "Free Practice 3", start = 2026-11-06T12:00:00+03:00 },
+  { name = "Qualifying - LMGT3", start = 2026-11-06T16:00:00+03:00, minutes = 20 },
+  { name = "Hyperpole - LMGT3", start = 2026-11-06T16:20:00+03:00, minutes = 20 },
+  { name = "Qualifying - Hypercar", start = 2026-11-06T16:40:00+03:00, minutes = 20 },
+  { name = "Hyperpole - Hypercar", start = 2026-11-06T17:00:00+03:00, minutes = 20 },
+  { name = "Race", start = 2026-11-07T14:00:00+03:00, minutes = 480 },
+]

@@ -1,0 +1,552 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//race-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NASCAR Cup Series
+X-WR-CALDESC:NASCAR Cup Series - practice\, qualifying and races. Times in 
+ UTC\; your calendar app shows them in your time zone.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nascar-2026-enjoy-illinois-300-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260913T190000Z
+DTEND:20260913T223000Z
+SUMMARY:NASCAR: Enjoy Illinois 300 - Race
+LOCATION:World Wide Technology Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-bass-pro-shops-night-race-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260919T233000Z
+DTEND:20260920T030000Z
+SUMMARY:NASCAR: Bass Pro Shops Night Race - Race
+LOCATION:Bristol Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-hollywood-casino-400-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260927T190000Z
+DTEND:20260927T223000Z
+SUMMARY:NASCAR: Hollywood Casino 400 - Race
+LOCATION:Kansas Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-south-point-400-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261004T213000Z
+DTEND:20261005T010000Z
+SUMMARY:NASCAR: South Point 400 - Race
+LOCATION:Las Vegas Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-bank-of-america-400-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261011T190000Z
+DTEND:20261011T223000Z
+SUMMARY:NASCAR: Bank of America 400 - Race
+LOCATION:Charlotte Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-freeway-insurance-500-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261018T190000Z
+DTEND:20261018T223000Z
+SUMMARY:NASCAR: Freeway Insurance 500 - Race
+LOCATION:Phoenix Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-yellawood-500-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261025T180000Z
+DTEND:20261025T213000Z
+SUMMARY:NASCAR: YellaWood 500 - Race
+LOCATION:Talladega Superspeedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-xfinity-500-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261101T190000Z
+DTEND:20261101T223000Z
+SUMMARY:NASCAR: Xfinity 500 - Race
+LOCATION:Martinsville Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2026-nascar-championship-race-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20261108T200000Z
+DTEND:20261108T233000Z
+SUMMARY:NASCAR: NASCAR Championship Race - Race
+LOCATION:Homestead-Miami Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
+  (checked 2026-09-10). End time is an estimate.
+URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-wheatley-vodka-clash@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:NASCAR: Wheatley Vodka Clash (times TBA)
+LOCATION:Daytona International Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-duel-1-at-daytona@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:NASCAR: Duel 1 at DAYTONA (times TBA)
+LOCATION:Daytona International Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-duel-2-at-daytona@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:NASCAR: Duel 2 at DAYTONA (times TBA)
+LOCATION:Daytona International Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-daytona-500@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:NASCAR: DAYTONA 500 (times TBA)
+LOCATION:Daytona International Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-atlanta-february@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:NASCAR: NASCAR Cup Series Race at Atlanta (February) (times TBA)
+LOCATION:Atlanta Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-cota@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:NASCAR: NASCAR Cup Series Race at COTA (times TBA)
+LOCATION:Circuit of The Americas
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-phoenix-march@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:NASCAR: NASCAR Cup Series Race at Phoenix (March) (times TBA)
+LOCATION:Phoenix Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-pennzoil-400@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:NASCAR: Pennzoil 400 (times TBA)
+LOCATION:Las Vegas Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-darlington-april@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:NASCAR: NASCAR Cup Series Race at Darlington (April) (times TBA)
+LOCATION:Darlington Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-food-city-500@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:NASCAR: Food City 500 (times TBA)
+LOCATION:Bristol Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-martinsville-april@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:NASCAR: NASCAR Cup Series Race at Martinsville (April) (times TBA)
+LOCATION:Martinsville Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-talladega-april@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:NASCAR: NASCAR Cup Series Race at Talladega (April) (times TBA)
+LOCATION:Talladega Superspeedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-texas@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:NASCAR: NASCAR Cup Series Race at Texas (times TBA)
+LOCATION:Texas Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-kansas-may@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:NASCAR: NASCAR Cup Series Race at Kansas (May) (times TBA)
+LOCATION:Kansas Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-dover@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:NASCAR: NASCAR Cup Series Race at Dover (times TBA)
+LOCATION:Dover Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-all-star-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:NASCAR: NASCAR Cup Series All-Star Race (times TBA)
+LOCATION:North Wilkesboro Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-coca-cola-600@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:NASCAR: Coca-Cola 600 (times TBA)
+LOCATION:Charlotte Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-cracker-barrel-400@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:NASCAR: Cracker Barrel 400 (times TBA)
+LOCATION:Nashville Superspeedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-pocono@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:NASCAR: NASCAR Cup Series Race at Pocono (times TBA)
+LOCATION:Pocono Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-michigan@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:NASCAR: NASCAR Cup Series Race at Michigan (times TBA)
+LOCATION:Michigan International Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-chicago@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:NASCAR: NASCAR Cup Series Race at Chicago (times TBA)
+LOCATION:Chicagoland Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-iowa@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:NASCAR: NASCAR Cup Series Race at Iowa (times TBA)
+LOCATION:Iowa Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-toyota-save-mart-350@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:NASCAR: Toyota / Save Mart 350 (times TBA)
+LOCATION:Sonoma Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-atlanta-july@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:NASCAR: NASCAR Cup Series Race at Atlanta (July) (times TBA)
+LOCATION:Atlanta Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-indianapolis@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:NASCAR: NASCAR Cup Series Race at Indianapolis (times TBA)
+LOCATION:Indianapolis Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-san-diego@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:NASCAR: NASCAR Cup Series Race at San Diego (times TBA)
+LOCATION:San Diego Street Course
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-bristol-night-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:NASCAR: Bristol Night Race (times TBA)
+LOCATION:Bristol Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-wwtr@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:NASCAR: NASCAR Cup Series Race at WWTR (times TBA)
+LOCATION:World Wide Technology Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-coke-zero-sugar-400@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:NASCAR: Coke Zero Sugar 400 (times TBA)
+LOCATION:Daytona International Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-southern-500@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:NASCAR: Southern 500 (times TBA)
+LOCATION:Darlington Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-richmond@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+SUMMARY:NASCAR: NASCAR Cup Series Race at Richmond (times TBA)
+LOCATION:Richmond Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-watkins-glen@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:NASCAR: NASCAR Cup Series Race at Watkins Glen (times TBA)
+LOCATION:Watkins Glen International
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-new-hampshire@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:NASCAR: NASCAR Cup Series Race at New Hampshire (times TBA)
+LOCATION:New Hampshire Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-kansas-october@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:NASCAR: NASCAR Cup Series Race at Kansas (October) (times TBA)
+LOCATION:Kansas Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-south-point-400@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:NASCAR: South Point 400 (times TBA)
+LOCATION:Las Vegas Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-bank-of-america-400@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271017
+DTEND;VALUE=DATE:20271018
+SUMMARY:NASCAR: Bank of America 400 (times TBA)
+LOCATION:Charlotte Motor Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-phoenix-october@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271024
+DTEND;VALUE=DATE:20271025
+SUMMARY:NASCAR: NASCAR Cup Series Race at Phoenix (October) (times TBA)
+LOCATION:Phoenix Raceway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-talladega-october@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271031
+DTEND;VALUE=DATE:20271101
+SUMMARY:NASCAR: NASCAR Cup Series Race at Talladega (October) (times TBA)
+LOCATION:Talladega Superspeedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-race-at-martinsville-november@race-calend
+ ars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271107
+DTEND;VALUE=DATE:20271108
+SUMMARY:NASCAR: NASCAR Cup Series Race at Martinsville (November) (times TB
+ A)
+LOCATION:Martinsville Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:nascar-2027-nascar-cup-series-championship-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271114
+DTEND;VALUE=DATE:20271115
+SUMMARY:NASCAR: NASCAR Cup Series Championship Race (times TBA)
+LOCATION:Homestead-Miami Speedway
+DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2027/schedule/
+  (checked 2026-09-10). Session times not published yet.
+URL:https://www.nascar.com/nascar-cup-series/2027/schedule/
+END:VEVENT
+END:VCALENDAR

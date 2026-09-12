@@ -1,0 +1,29 @@
+# Formula E Season 13 (2026-27), provisional calendar from fiaformulae.com (published 2026-06-23).
+# sportstimes names Formula E seasons by their end year (its 2026.json is Season 12), so these
+# are season = 2027 and drop out automatically once sportstimes publishes fe/2027.json.
+# Dates only. Each double-header lists "N & N+1" with two dates; rounds are paired with dates in order.
+checked = 2026-09-10
+source = "https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era"
+event = [
+  { season = 2027, date = 2026-12-18, name = "Jeddah E-Prix, Round 1", location = "Jeddah Corniche Circuit, Saudi Arabia" },
+  { season = 2027, date = 2026-12-19, name = "Jeddah E-Prix, Round 2", location = "Jeddah Corniche Circuit, Saudi Arabia" },
+  { season = 2027, date = 2027-01-16, name = "Mexico City E-Prix, Round 3", location = "Autódromo Hermanos Rodríguez, Mexico" },
+  { season = 2027, date = 2027-02-06, name = "Austin E-Prix, Round 4", location = "Circuit of The Americas, USA" },
+  { season = 2027, date = 2027-02-20, name = "Miami E-Prix, Round 5", location = "Miami International Autodrome, USA" },
+  { season = 2027, date = 2027-03-13, name = "São Paulo E-Prix, Round 6", location = "Anhembi Sambadrome Circuit, Brazil" },
+  { season = 2027, date = 2027-04-17, name = "Sanya E-Prix, Round 7", location = "Haitang Bay Circuit, China" },
+  { season = 2027, date = 2027-05-08, name = "Berlin E-Prix, Round 8", location = "Tempelhof Airport Street Circuit, Germany" },
+  { season = 2027, date = 2027-05-09, name = "Berlin E-Prix, Round 9", location = "Tempelhof Airport Street Circuit, Germany" },
+  { season = 2027, date = 2027-05-15, name = "Monaco E-Prix, Round 10", location = "Circuit de Monaco" },
+  { season = 2027, date = 2027-05-16, name = "Monaco E-Prix, Round 11", location = "Circuit de Monaco" },
+  { season = 2027, date = 2027-05-29, name = "London E-Prix, Round 12", location = "Brands Hatch, UK" },
+  { season = 2027, date = 2027-05-30, name = "London E-Prix, Round 13", location = "Brands Hatch, UK" },
+  { season = 2027, date = 2027-06-18, name = "Zandvoort E-Prix, Round 14", location = "MASCOT Zandvoort Circuit, Netherlands" },
+  { season = 2027, date = 2027-06-19, name = "Zandvoort E-Prix, Round 15", location = "MASCOT Zandvoort Circuit, Netherlands" },
+  { season = 2027, date = 2027-06-26, name = "Madrid E-Prix, Round 16", location = "Circuito de Madrid Jarama-RACE, Spain" },
+  { season = 2027, date = 2027-06-27, name = "Madrid E-Prix, Round 17", location = "Circuito de Madrid Jarama-RACE, Spain" },
+  { season = 2027, date = 2027-07-10, name = "Shanghai E-Prix, Round 18", location = "Shanghai International Circuit, China" },
+  { season = 2027, date = 2027-07-11, name = "Shanghai E-Prix, Round 19", location = "Shanghai International Circuit, China" },
+  { season = 2027, date = 2027-07-24, name = "Tokyo E-Prix, Round 20", location = "Tokyo Street Circuit, Japan" },
+  { season = 2027, date = 2027-07-25, name = "Tokyo E-Prix, Round 21", location = "Tokyo Street Circuit, Japan" },
+]

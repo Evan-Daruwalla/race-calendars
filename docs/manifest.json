@@ -1,0 +1,97 @@
+{
+  "f1": {
+    "name": "Formula 1",
+    "events": 115,
+    "from_sportstimes": 115,
+    "from_data_file": 0,
+    "all_day": 0,
+    "sportstimes_seasons": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "formula-e": {
+    "name": "Formula E",
+    "events": 82,
+    "from_sportstimes": 61,
+    "from_data_file": 21,
+    "all_day": 21,
+    "sportstimes_seasons": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "indycar": {
+    "name": "IndyCar Series",
+    "events": 86,
+    "from_sportstimes": 78,
+    "from_data_file": 8,
+    "all_day": 8,
+    "sportstimes_seasons": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "motogp": {
+    "name": "MotoGP",
+    "events": 154,
+    "from_sportstimes": 153,
+    "from_data_file": 1,
+    "all_day": 1,
+    "sportstimes_seasons": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "nascar": {
+    "name": "NASCAR Cup Series",
+    "events": 49,
+    "from_sportstimes": 0,
+    "from_data_file": 49,
+    "all_day": 40,
+    "sportstimes_seasons": []
+  },
+  "wec": {
+    "name": "FIA World Endurance Championship",
+    "events": 34,
+    "from_sportstimes": 0,
+    "from_data_file": 34,
+    "all_day": 10,
+    "sportstimes_seasons": []
+  },
+  "imsa": {
+    "name": "IMSA WeatherTech SportsCar Championship",
+    "events": 13,
+    "from_sportstimes": 0,
+    "from_data_file": 13,
+    "all_day": 13,
+    "sportstimes_seasons": []
+  },
+  "wrc": {
+    "name": "FIA World Rally Championship",
+    "events": 3,
+    "from_sportstimes": 0,
+    "from_data_file": 3,
+    "all_day": 3,
+    "sportstimes_seasons": []
+  }
+}

@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//race-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FIA World Rally Championship
+X-WR-CALDESC:FIA World Rally Championship - practice\, qualifying and races
+ . Times in UTC\; your calendar app shows them in your time zone.
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:wrc-2026-rally-chile-bio-b-o@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260914
+SUMMARY:WRC: Rally Chile Bio Bío (times TBA)
+LOCATION:Chile
+DESCRIPTION:Source: https://www.wrc.com/en/calendar (checked 2026-09-10). S
+ ession times not published yet.
+URL:https://www.wrc.com/en/calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2026-rally-italia-sardegna@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261005
+SUMMARY:WRC: Rally Italia Sardegna (times TBA)
+LOCATION:Sardinia\, Italy
+DESCRIPTION:Source: https://www.wrc.com/en/calendar (checked 2026-09-10). S
+ ession times not published yet.
+URL:https://www.wrc.com/en/calendar
+END:VEVENT
+BEGIN:VEVENT
+UID:wrc-2026-rally-saudi-arabia@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261115
+SUMMARY:WRC: Rally Saudi Arabia (times TBA)
+LOCATION:Saudi Arabia
+DESCRIPTION:Source: https://www.wrc.com/en/calendar (checked 2026-09-10). S
+ ession times not published yet.
+URL:https://www.wrc.com/en/calendar
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//race-calendars//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IMSA WeatherTech SportsCar Championship
+X-WR-CALDESC:IMSA WeatherTech SportsCar Championship - practice\, qualifyin
+ g and races. Times in UTC\; your calendar app shows them in your time zone
+ .
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:imsa-2026-tirerack-com-battle-on-the-bricks@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260921
+SUMMARY:IMSA: TireRack.com Battle On The Bricks (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/weathertech-2026-sched
+ ule/ (checked 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/weathertech-2026-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2026-motul-petit-le-mans@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261004
+SUMMARY:IMSA: Motul Petit Le Mans (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/weathertech-2026-sched
+ ule/ (checked 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/weathertech-2026-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-rolex-24-at-daytona@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270201
+SUMMARY:IMSA: Rolex 24 At DAYTONA (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-mobil-1-twelve-hours-of-sebring@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270321
+SUMMARY:IMSA: Mobil 1 Twelve Hours of Sebring (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-acura-grand-prix-of-long-beach@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270418
+SUMMARY:IMSA: Acura Grand Prix of Long Beach (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-weathertech-raceway-laguna-seca@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270503
+SUMMARY:IMSA: WeatherTech Raceway Laguna Seca (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-chevrolet-detroit-grand-prix-presented-by-lear@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270606
+SUMMARY:IMSA: Chevrolet Detroit Grand Prix Presented By Lear (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-sahlen-s-six-hours-of-the-glen@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270628
+SUMMARY:IMSA: Sahlen's Six Hours of The Glen (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-chevrolet-grand-prix@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270712
+SUMMARY:IMSA: Chevrolet Grand Prix (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-motul-sportscar-endurance-grand-prix@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270809
+SUMMARY:IMSA: Motul SportsCar Endurance Grand Prix (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-michelin-gt-challenge-at-vir@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270823
+SUMMARY:IMSA: Michelin GT Challenge at VIR (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-tirerack-com-battle-on-the-bricks@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270920
+SUMMARY:IMSA: TireRack.com Battle On The Bricks (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+BEGIN:VEVENT
+UID:imsa-2027-motul-petit-le-mans@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271010
+SUMMARY:IMSA: Motul Petit Le Mans (times TBA)
+LOCATION:
+DESCRIPTION:Source: https://www.imsa.com/weathertech/2027-schedule/ (checke
+ d 2026-09-10). Session times not published yet.
+URL:https://www.imsa.com/weathertech/2027-schedule/
+END:VEVENT
+END:VCALENDAR
