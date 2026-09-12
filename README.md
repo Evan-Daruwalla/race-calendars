@@ -1,7 +1,7 @@
 # race-calendars
 
-Subscribable calendars for 8 racing series, 536 events as of 2026-09-11, with practice,
-qualifying and races, rebuilt every day.
+Subscribable calendars for 8 racing series, with practice, qualifying and races,
+rebuilt every day.
 
 | Series | Subscribe (paste into your calendar app) |
 |---|---|
