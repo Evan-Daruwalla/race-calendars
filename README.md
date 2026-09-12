@@ -1,7 +1,7 @@
 # race-calendars
 
-Subscribable calendars for 8 racing series, with practice, qualifying and races, rebuilt every
-day.
+Subscribable calendars for 8 racing series, 536 events as of 2026-09-11, with practice,
+qualifying and races, rebuilt every day.
 
 | Series | Subscribe (paste into your calendar app) |
 |---|---|
@@ -14,8 +14,9 @@ day.
 | IMSA WeatherTech | https://evan-daruwalla.github.io/race-calendars/imsa.ics |
 | FIA WRC | https://evan-daruwalla.github.io/race-calendars/wrc.ics |
 
-Add one with your calendar app's "subscribe by URL" or "from URL" option. Don't download
-the file: a subscription keeps updating, a downloaded copy doesn't.
+Add one with your calendar app's "subscribe by URL" or "from URL" option. Don't download the
+file: a subscription picks up schedule changes, while a downloaded copy stays frozen at the
+moment you saved it.
 
 ## Where the dates come from
 
@@ -33,6 +34,8 @@ the file: a subscription keeps updating, a downloaded copy doesn't.
 - **End times** use typical session lengths. Where a length was estimated, the event says so.
 - **Updates:** the build runs daily at 11:17 UTC. Calendar apps poll on their own schedule, so a
   change can take up to about a day to show up (Google Calendar is the slow one).
+- **If a session time looks wrong,** open the event's source link. Every hand-entered event names
+  the page it came from, so you can check it against the series.
 - **Not affiliated with or endorsed by** any series, sanctioning body or rights holder. Series
   names are used only to say what each calendar covers.
 
