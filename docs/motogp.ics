@@ -460,6 +460,17 @@ DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
 URL:https://github.com/sportstimes/f1
 END:VEVENT
 BEGIN:VEVENT
+UID:motogp-2026-r6-Spain-race@race-calendars
+DTSTAMP:20260910T000000Z
+DTSTART:20260517T120000Z
+DTEND:20260517T130000Z
+SUMMARY:MotoGP: Catalunya Grand Prix - Race
+LOCATION:Spain
+DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
+ 1 . End time is the typical session length.
+URL:https://github.com/sportstimes/f1
+END:VEVENT
+BEGIN:VEVENT
 UID:motogp-2026-r7-Italy-fp1@race-calendars
 DTSTAMP:20260910T000000Z
 DTSTART:20260529T084500Z

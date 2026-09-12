@@ -49,8 +49,8 @@
   },
   "motogp": {
     "name": "MotoGP",
-    "events": 154,
-    "from_sportstimes": 153,
+    "events": 155,
+    "from_sportstimes": 154,
     "from_data_file": 1,
     "all_day": 1,
     "sportstimes_seasons": [
