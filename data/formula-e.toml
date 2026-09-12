@@ -4,6 +4,9 @@
 # Dates only. Each double-header lists "N & N+1" with two dates; rounds are paired with dates in order.
 checked = 2026-09-10
 source = "https://www.fiaformulae.com/en/news/1074657/formula-e-and-fia-unveil-record-breaking-21-race-2026-27-calendar-for-gen4-era"
+# Hand-counted checksum: every event in this file, including seasons
+# suppressed when sportstimes catches up. Update it WITH the data, never after.
+expected_events = 21
 event = [
   { season = 2027, date = 2026-12-18, name = "Jeddah E-Prix, Round 1", location = "Jeddah Corniche Circuit, Saudi Arabia" },
   { season = 2027, date = 2026-12-19, name = "Jeddah E-Prix, Round 2", location = "Jeddah Corniche Circuit, Saudi Arabia" },

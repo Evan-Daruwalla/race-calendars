@@ -4,6 +4,9 @@
 # published yet.
 checked = 2026-09-10
 source = "https://www.wrc.com/en/calendar"
+# Hand-counted checksum: every event in this file, including seasons
+# suppressed when sportstimes catches up. Update it WITH the data, never after.
+expected_events = 3
 event = [
   { season = 2026, start_date = 2026-09-10, end_date = 2026-09-13, name = "Rally Chile Bio Bío", location = "Chile" },
   { season = 2026, start_date = 2026-10-01, end_date = 2026-10-04, name = "Rally Italia Sardegna", location = "Sardinia, Italy" },

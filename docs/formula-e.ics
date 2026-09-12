@@ -2,7 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//race-calendars//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 X-WR-CALNAME:Formula E
 X-WR-CALDESC:Formula E - practice\, qualifying and races. Times in UTC\; yo
  ur calendar app shows them in your time zone.
@@ -18,6 +17,7 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r1-sao-paulo-eprix-qualifying@race-calendars
@@ -29,6 +29,11 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Sao Paulo ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r1-sao-paulo-eprix-race@race-calendars
@@ -40,6 +45,11 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Sao Paulo ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r2-mexico-city-eprix-practice1@race-calendars
@@ -51,6 +61,7 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r2-mexico-city-eprix-practice2@race-calendars
@@ -62,6 +73,7 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r2-mexico-city-eprix-qualifying@race-calendars
@@ -73,6 +85,11 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Mexico City ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r2-mexico-city-eprix-race@race-calendars
@@ -84,6 +101,11 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Mexico City ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r3-miami-eprix-practice1@race-calendars
@@ -95,6 +117,7 @@ LOCATION:Miami IA
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r3-miami-eprix-practice2@race-calendars
@@ -106,6 +129,7 @@ LOCATION:Miami IA
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r3-miami-eprix-qualifying@race-calendars
@@ -117,6 +141,11 @@ LOCATION:Miami IA
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Miami ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r3-miami-eprix-race@race-calendars
@@ -128,6 +157,11 @@ LOCATION:Miami IA
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Miami ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r4-jeddah-eprix-practice1@race-calendars
@@ -139,6 +173,7 @@ LOCATION:Jeddah
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r4-jeddah-eprix-practice2@race-calendars
@@ -150,6 +185,7 @@ LOCATION:Jeddah
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r4-jeddah-eprix-qualifying@race-calendars
@@ -161,6 +197,11 @@ LOCATION:Jeddah
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Jeddah ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r4-jeddah-eprix-race@race-calendars
@@ -172,6 +213,11 @@ LOCATION:Jeddah
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Jeddah ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r5-jeddah-eprix-practice3@race-calendars
@@ -183,6 +229,7 @@ LOCATION:Jeddah
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r5-jeddah-eprix-qualifying@race-calendars
@@ -194,6 +241,11 @@ LOCATION:Jeddah
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Jeddah ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r5-jeddah-eprix-race@race-calendars
@@ -205,6 +257,11 @@ LOCATION:Jeddah
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Jeddah ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r6-madrid-eprix-practice1@race-calendars
@@ -216,6 +273,7 @@ LOCATION:Jarama
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r6-madrid-eprix-practice2@race-calendars
@@ -227,6 +285,7 @@ LOCATION:Jarama
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r6-madrid-eprix-qualifying@race-calendars
@@ -238,6 +297,11 @@ LOCATION:Jarama
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Madrid ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r6-madrid-eprix-race@race-calendars
@@ -249,6 +313,11 @@ LOCATION:Jarama
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Madrid ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r7-berlin-eprix-practice1@race-calendars
@@ -260,6 +329,7 @@ LOCATION:Berlin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r7-berlin-eprix-practice2@race-calendars
@@ -271,6 +341,7 @@ LOCATION:Berlin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r7-berlin-eprix-qualifying@race-calendars
@@ -282,6 +353,11 @@ LOCATION:Berlin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Berlin ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r7-berlin-eprix-race@race-calendars
@@ -293,6 +369,11 @@ LOCATION:Berlin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Berlin ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r8-berlin-eprix-practice3@race-calendars
@@ -304,6 +385,7 @@ LOCATION:Berlin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r8-berlin-eprix-qualifying@race-calendars
@@ -315,6 +397,11 @@ LOCATION:Berlin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Berlin ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r8-berlin-eprix-race@race-calendars
@@ -326,6 +413,11 @@ LOCATION:Berlin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Berlin ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r9-monaco-eprix-practice1@race-calendars
@@ -337,6 +429,7 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r9-monaco-eprix-practice2@race-calendars
@@ -348,6 +441,7 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r9-monaco-eprix-qualifying@race-calendars
@@ -359,6 +453,11 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Monaco ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r9-monaco-eprix-race@race-calendars
@@ -370,6 +469,11 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Monaco ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r10-monaco-eprix-practice3@race-calendars
@@ -381,6 +485,7 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r10-monaco-eprix-qualifying@race-calendars
@@ -392,6 +497,11 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Monaco ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r10-monaco-eprix-race@race-calendars
@@ -403,6 +513,11 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Monaco ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r11-sanya-eprix-practice1@race-calendars
@@ -414,6 +529,7 @@ LOCATION:Sanya
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r11-sanya-eprix-practice2@race-calendars
@@ -425,6 +541,7 @@ LOCATION:Sanya
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r11-sanya-eprix-qualifying@race-calendars
@@ -436,6 +553,11 @@ LOCATION:Sanya
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Sanya ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r11-sanya-eprix-race@race-calendars
@@ -447,6 +569,11 @@ LOCATION:Sanya
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Sanya ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r12-shanghai-eprix-practice1@race-calendars
@@ -458,6 +585,7 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r12-shanghai-eprix-practice2@race-calendars
@@ -469,6 +597,7 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r12-shanghai-eprix-qualifying@race-calendars
@@ -480,6 +609,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Shanghai ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r12-shanghai-eprix-race@race-calendars
@@ -491,6 +625,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Shanghai ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r13-shanghai-eprix-practice3@race-calendars
@@ -502,6 +641,7 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r13-shanghai-eprix-qualifying@race-calendars
@@ -513,6 +653,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Shanghai ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r13-shanghai-eprix-race@race-calendars
@@ -524,6 +669,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Shanghai ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r14-tokyo-eprix-practice1@race-calendars
@@ -535,6 +685,7 @@ LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r14-tokyo-eprix-practice2@race-calendars
@@ -546,6 +697,7 @@ LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r14-tokyo-eprix-qualifying@race-calendars
@@ -557,6 +709,11 @@ LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Tokyo ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r14-tokyo-eprix-race@race-calendars
@@ -568,6 +725,11 @@ LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Tokyo ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r15-tokyo-eprix-practice3@race-calendars
@@ -579,6 +741,7 @@ LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r15-tokyo-eprix-qualifying@race-calendars
@@ -590,6 +753,11 @@ LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: Tokyo ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r15-tokyo-eprix-race@race-calendars
@@ -601,6 +769,11 @@ LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: Tokyo ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r16-london-eprix-practice1@race-calendars
@@ -612,6 +785,7 @@ LOCATION:London
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r16-london-eprix-practice2@race-calendars
@@ -623,6 +797,7 @@ LOCATION:London
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r16-london-eprix-qualifying@race-calendars
@@ -634,6 +809,11 @@ LOCATION:London
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: London ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r16-london-eprix-race@race-calendars
@@ -645,6 +825,11 @@ LOCATION:London
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: London ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r17-london-eprix-practice3@race-calendars
@@ -656,6 +841,7 @@ LOCATION:London
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r17-london-eprix-qualifying@race-calendars
@@ -667,6 +853,11 @@ LOCATION:London
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:FE: London ePrix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r17-london-eprix-race@race-calendars
@@ -678,6 +869,11 @@ LOCATION:London
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:FE: London ePrix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2027-jeddah-e-prix-round-1@race-calendars

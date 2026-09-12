@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Per-series build artifact: publish_<key>.py copies these byte-for-byte into docs/,
+# which is what GitHub Pages serves. Committing both stores every event twice.
+*-2026-27/*.ics

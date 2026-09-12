@@ -2,7 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//race-calendars//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 X-WR-CALNAME:IMSA WeatherTech SportsCar Championship
 X-WR-CALDESC:IMSA WeatherTech SportsCar Championship - practice\, qualifyin
  g and races. Times in UTC\; your calendar app shows them in your time zone

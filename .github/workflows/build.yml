@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["data/**", "build.py", "check.py", ".github/workflows/build.yml"]
+    paths: ["data/**", "racecal/**", "*-2026-27/**", "update_calendars.py", ".github/workflows/build.yml"]
 
 permissions:
   contents: write
@@ -19,8 +19,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python build.py
-      - run: python check.py
+      # One entry point. It builds and verifies every series before publishing any of them,
+      # so a failure in the last series cannot leave the first four updated and the rest stale.
+      - run: python update_calendars.py --yes
       # GitHub disables scheduled workflows in public repos after 60 days with no activity.
       # One small commit on the 1st of each month keeps the daily rebuild alive through the off-season.
       - name: monthly heartbeat

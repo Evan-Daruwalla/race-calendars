@@ -10,6 +10,9 @@
 checked = 2026-09-10
 source = "https://www.nascar.com/nascar-cup-series/2027/schedule/"
 default_minutes = { race = 210 }
+# Hand-counted checksum: every event in this file, including seasons
+# suppressed when sportstimes catches up. Update it WITH the data, never after.
+expected_events = 49
 event = [
   { season = 2026, name = "Enjoy Illinois 300", location = "World Wide Technology Raceway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-09-13T15:00:00-04:00 }] },
   { season = 2026, name = "Bass Pro Shops Night Race", location = "Bristol Motor Speedway", source = "https://www.nascar.com/nascar-cup-series/2026/schedule/", session = [{ name = "Race", start = 2026-09-19T19:30:00-04:00 }] },

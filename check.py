@@ -33,7 +33,7 @@ def when(v):
 
 
 manifest = json.loads((OUT / "manifest.json").read_text(encoding="utf-8"))
-for key in SERIES:
+for key in list(SERIES) + ["all"]:
     raw = (OUT / f"{key}.ics").read_bytes()
     check(raw.startswith(b"BEGIN:VCALENDAR\r\n") and raw.endswith(b"END:VCALENDAR\r\n"), f"{key}: bad envelope")
     check(raw.count(b"\n") == raw.count(b"\r\n"), f"{key}: bare LF line endings")
@@ -54,8 +54,13 @@ for key in SERIES:
         uids.append(f.get("UID"))
     check(len(uids) == len(set(uids)), f"{key}: duplicate UIDs")
 
+# the combined feed must hold every series event: without this, a whole series can vanish from
+# all.ics and still pass, because all.ics and its manifest entry come from the same build run
+check(manifest["all"]["events"] == sum(manifest[k]["events"] for k in SERIES),
+      f"all: {manifest['all']['events']} events, the 8 series sum to {sum(manifest[k]['events'] for k in SERIES)}")
+
 if fails:
     print("CHECK FAIL", len(fails))
     print("\n".join(fails))
     sys.exit(1)
-print(f"CHECK PASS {len(SERIES)} calendars, {sum(v['events'] for v in manifest.values())} events")
+print(f"CHECK PASS {len(SERIES)} calendars plus 1 combined feed, {manifest['all']['events']} events")

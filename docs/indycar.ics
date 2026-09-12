@@ -2,7 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//race-calendars//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 X-WR-CALNAME:IndyCar Series
 X-WR-CALDESC:IndyCar Series - practice\, qualifying and races. Times in UTC
  \; your calendar app shows them in your time zone.
@@ -19,6 +18,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r1-firestone-grand-prix-of-st-petersburg-practice2@race-ca
@@ -31,6 +31,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r1-firestone-grand-prix-of-st-petersburg-qualifying@race-c
@@ -43,6 +44,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Firestone Grand Prix of St. Petersburg - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r1-firestone-grand-prix-of-st-petersburg-race@race-calenda
@@ -55,6 +61,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Firestone Grand Prix of St. Petersburg - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r2-good-ranchers-250-practice1@race-calendars
@@ -66,6 +77,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r2-good-ranchers-250-qualifying@race-calendars
@@ -77,6 +89,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Good Ranchers 250 - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r2-good-ranchers-250-practice2@race-calendars
@@ -88,6 +105,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r2-good-ranchers-250-finalpractice@race-calendars
@@ -99,6 +117,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r2-good-ranchers-250-race@race-calendars
@@ -110,6 +129,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Good Ranchers 250 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r3-java-house-grand-prix-of-arlington-practice1@race-calen
@@ -122,6 +146,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r3-java-house-grand-prix-of-arlington-practice2@race-calen
@@ -134,6 +159,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r3-java-house-grand-prix-of-arlington-qualifying@race-cale
@@ -146,6 +172,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Java House Grand Prix of Arlington - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r3-java-house-grand-prix-of-arlington-race@race-calendars
@@ -157,6 +188,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Java House Grand Prix of Arlington - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r4-childrens-of-alabama-indy-grand-prix-practice1@race-cal
@@ -169,6 +205,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r4-childrens-of-alabama-indy-grand-prix-practice2@race-cal
@@ -181,6 +218,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r4-childrens-of-alabama-indy-grand-prix-qualifying@race-ca
@@ -193,6 +231,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Children's of Alabama Indy Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r4-childrens-of-alabama-indy-grand-prix-race@race-calendar
@@ -205,6 +248,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Children's of Alabama Indy Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r5-acura-grand-prix-of-long-beach-practice1@race-calendars
@@ -216,6 +264,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r5-acura-grand-prix-of-long-beach-practice2@race-calendars
@@ -227,6 +276,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r5-acura-grand-prix-of-long-beach-qualifying@race-calendar
@@ -239,6 +289,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Acura Grand Prix of Long Beach - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r5-acura-grand-prix-of-long-beach-race@race-calendars
@@ -250,6 +305,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Acura Grand Prix of Long Beach - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r6-sonsio-grand-prix-practice1@race-calendars
@@ -261,6 +321,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r6-sonsio-grand-prix-practice2@race-calendars
@@ -272,6 +333,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r6-sonsio-grand-prix-qualifying@race-calendars
@@ -283,6 +345,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Sonsio Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r6-sonsio-grand-prix-race@race-calendars
@@ -294,6 +361,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Sonsio Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-practice1@race-ca
@@ -306,6 +378,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-practice2@race-ca
@@ -318,6 +391,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-practice3@race-ca
@@ -330,6 +404,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-practice4@race-ca
@@ -342,6 +417,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-qualifying@race-c
@@ -354,6 +430,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: 110th Running of the Indianapolis 500 - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-practice6@race-ca
@@ -366,6 +447,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-practice7@race-ca
@@ -378,6 +460,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-practice8@race-ca
@@ -390,6 +473,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r7-110th-running-of-the-indianapolis-500-race@race-calenda
@@ -402,6 +486,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: 110th Running of the Indianapolis 500 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r8-chevrolet-detroit-grand-prix-practice1@race-calendars
@@ -413,6 +502,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r8-chevrolet-detroit-grand-prix-practice2@race-calendars
@@ -424,6 +514,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r8-chevrolet-detroit-grand-prix-qualifying@race-calendars
@@ -435,6 +526,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Chevrolet Detroit Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r8-chevrolet-detroit-grand-prix-race@race-calendars
@@ -446,6 +542,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Chevrolet Detroit Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r9-bommarito-automotive-group-500-practice1@race-calendars
@@ -457,6 +558,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r9-bommarito-automotive-group-500-qualifying@race-calendar
@@ -469,6 +571,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Bommarito Automotive Group 500 - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r9-bommarito-automotive-group-500-practice2@race-calendars
@@ -480,6 +587,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r9-bommarito-automotive-group-500-finalpractice@race-calen
@@ -492,6 +600,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r9-bommarito-automotive-group-500-race@race-calendars
@@ -503,6 +612,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Bommarito Automotive Group 500 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r10-xpel-grand-prix-at-road-america-practice1@race-calenda
@@ -515,6 +629,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r10-xpel-grand-prix-at-road-america-practice2@race-calenda
@@ -527,6 +642,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r10-xpel-grand-prix-at-road-america-qualifying@race-calend
@@ -539,6 +655,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: XPEL Grand Prix at Road America - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r10-xpel-grand-prix-at-road-america-race@race-calendars
@@ -550,6 +671,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: XPEL Grand Prix at Road America - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r11-honda-indy-200-at-midohio-practice1@race-calendars
@@ -561,6 +687,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r11-honda-indy-200-at-midohio-practice2@race-calendars
@@ -572,6 +699,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r11-honda-indy-200-at-midohio-qualifying@race-calendars
@@ -583,6 +711,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Honda Indy 200 at Mid-Ohio - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r11-honda-indy-200-at-midohio-race@race-calendars
@@ -594,6 +727,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Honda Indy 200 at Mid-Ohio - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r12-borchetta-bourbon-music-city-grand-prix-practice1@race
@@ -606,6 +744,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r12-borchetta-bourbon-music-city-grand-prix-qualifying@rac
@@ -618,6 +757,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Borchetta Bourbon Music City Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r12-borchetta-bourbon-music-city-grand-prix-practice2@race
@@ -630,6 +774,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r12-borchetta-bourbon-music-city-grand-prix-finalpractice@
@@ -642,6 +787,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r12-borchetta-bourbon-music-city-grand-prix-race@race-cale
@@ -654,6 +800,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Borchetta Bourbon Music City Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r13-onlybulls-grand-prix-of-portland-practice1@race-calend
@@ -666,6 +817,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r13-onlybulls-grand-prix-of-portland-practice2@race-calend
@@ -678,6 +830,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r13-onlybulls-grand-prix-of-portland-qualifying@race-calen
@@ -690,6 +843,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: OnlyBulls Grand Prix of Portland - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r13-onlybulls-grand-prix-of-portland-race@race-calendars
@@ -701,6 +859,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: OnlyBulls Grand Prix of Portland - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r14-ontario-honda-dealers-indy-at-markham-practice1@race-c
@@ -713,6 +876,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r14-ontario-honda-dealers-indy-at-markham-practice2@race-c
@@ -725,6 +889,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r14-ontario-honda-dealers-indy-at-markham-qualifying@race-
@@ -737,6 +902,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Ontario Honda Dealers Indy at Markham - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r14-ontario-honda-dealers-indy-at-markham-race@race-calend
@@ -749,6 +919,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Ontario Honda Dealers Indy at Markham - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r15-freedom-250-grand-prix-of-washington-dc-practice1@race
@@ -761,6 +936,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r15-freedom-250-grand-prix-of-washington-dc-practice2@race
@@ -773,6 +949,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r15-freedom-250-grand-prix-of-washington-dc-qualifying@rac
@@ -785,6 +962,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Freedom 250 Grand Prix of Washington DC - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r15-freedom-250-grand-prix-of-washington-dc-race@race-cale
@@ -797,6 +979,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Freedom 250 Grand Prix of Washington DC - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r16-snapon-makers-and-fixers-250-practice1@race-calendars
@@ -808,6 +995,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r16-snapon-makers-and-fixers-250-qualifying@race-calendars
@@ -819,6 +1007,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Snap-on Makers and Fixers 250 - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r17-snapon-milwaukee-mile-250-qualifying@race-calendars
@@ -830,6 +1023,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: Snap-on Milwaukee Mile 250 - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r16-snapon-makers-and-fixers-250-race@race-calendars
@@ -841,6 +1039,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Snap-on Makers and Fixers 250 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r17-snapon-milwaukee-mile-250-race@race-calendars
@@ -852,6 +1055,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: Snap-on Milwaukee Mile 250 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r18-indycar-grand-prix-of-monterey-practice1@race-calendar
@@ -864,6 +1072,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r18-indycar-grand-prix-of-monterey-practice2@race-calendar
@@ -876,6 +1085,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r18-indycar-grand-prix-of-monterey-qualifying@race-calenda
@@ -888,6 +1098,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:IndyCar: INDYCAR Grand Prix of Monterey - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r18-indycar-grand-prix-of-monterey-practice3@race-calendar
@@ -900,6 +1115,7 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2026-r18-indycar-grand-prix-of-monterey-race@race-calendars
@@ -911,6 +1127,11 @@ LOCATION:
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:IndyCar: INDYCAR Grand Prix of Monterey - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:indycar-2027-streets-of-st-petersburg@race-calendars

@@ -2,6 +2,9 @@
 # Drops out automatically once sportstimes publishes motogp/2027.json with full session times.
 checked = 2026-09-10
 source = "https://www.motogp.com/en/news/2026/09/02/2027-motogp-pre-season-dates-confirmed/1088122"
+# Hand-counted checksum: every event in this file, including seasons
+# suppressed when sportstimes catches up. Update it WITH the data, never after.
+expected_events = 1
 event = [
   { season = 2027, start_date = 2027-03-05, end_date = 2027-03-07, name = "Thai GP", location = "Buriram, Thailand" },
 ]

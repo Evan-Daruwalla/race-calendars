@@ -155,6 +155,7 @@ def main():
     this_year = dt.datetime.now(dt.timezone.utc).year
     OUT.mkdir(exist_ok=True)
     manifest = {}
+    all_events = []
     for key, (name, prefix, site, suffix) in SERIES.items():
         upstream, have = sportstimes(key, prefix, site, suffix, this_year) if site else ([], set())
         hand = handfile(key, prefix, have)
@@ -163,15 +164,24 @@ def main():
         manifest[key] = {"name": name, "events": len(events), "from_sportstimes": len(upstream),
                          "from_data_file": len(hand), "all_day": sum(e["allday"] for e in events),
                          "sportstimes_seasons": sorted(have)}
+        all_events += events
+    # combined feed: every series in one subscription. UIDs are namespaced by series key, so no collisions.
+    (OUT / "all.ics").write_bytes(ics("all", "All Racing (race-calendars)", all_events))
+    manifest["all"] = {"name": "All Racing (race-calendars)", "events": len(all_events),
+                       "from_sportstimes": sum(v["from_sportstimes"] for v in manifest.values()),
+                       "from_data_file": sum(v["from_data_file"] for v in manifest.values()),
+                       "all_day": sum(e["allday"] for e in all_events), "sportstimes_seasons": []}
     (OUT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    all_row = (f'<li><b>All series combined</b>: <a href="webcal://{PAGES}/all.ics">subscribe</a> '
+               f'&middot; <a href="https://{PAGES}/all.ics">https link</a> ({manifest["all"]["events"]} events)</li>')
     rows = "\n".join(f'<li><b>{v["name"]}</b>: <a href="webcal://{PAGES}/{k}.ics">subscribe</a> '
                      f'&middot; <a href="https://{PAGES}/{k}.ics">https link</a> ({v["events"]} events)</li>'
-                     for k, v in manifest.items())
+                     for k, v in manifest.items() if k != "all")
     (OUT / "index.html").write_text(
         "<!doctype html><meta charset=utf-8><title>race-calendars</title>"
-        "<h1>Race calendars</h1><p>One subscribable calendar per series: practice, qualifying and races. "
-        "Times are UTC in the files; calendar apps show them in your own time zone.</p>"
-        f"<ul>\n{rows}\n</ul><p>Source and details: "
+        "<h1>Race calendars</h1><p>One subscribable calendar per series, or all of them combined: practice, "
+        "qualifying and races. Times are UTC in the files; calendar apps show them in your own time zone.</p>"
+        f"<ul>\n{all_row}\n</ul><hr><ul>\n{rows}\n</ul><p>Source and details: "
         '<a href="https://github.com/Evan-Daruwalla/race-calendars">github.com/Evan-Daruwalla/race-calendars</a></p>\n',
         encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")

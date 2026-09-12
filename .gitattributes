@@ -1,0 +1,4 @@
+# RFC 5545 requires CRLF line endings inside .ics files. With core.autocrlf=true
+# a Windows commit would strip them to LF (it did, in 0d54ffc), and check.py then
+# fails with "bare LF line endings". Keep these bytes exactly as built.
+*.ics -text

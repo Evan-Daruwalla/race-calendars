@@ -2,7 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//race-calendars//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 X-WR-CALNAME:NASCAR Cup Series
 X-WR-CALDESC:NASCAR Cup Series - practice\, qualifying and races. Times in 
  UTC\; your calendar app shows them in your time zone.
@@ -18,6 +17,11 @@ LOCATION:World Wide Technology Raceway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: Enjoy Illinois 300 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-bass-pro-shops-night-race-race@race-calendars
@@ -29,6 +33,11 @@ LOCATION:Bristol Motor Speedway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: Bass Pro Shops Night Race - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-hollywood-casino-400-race@race-calendars
@@ -40,6 +49,11 @@ LOCATION:Kansas Speedway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: Hollywood Casino 400 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-south-point-400-race@race-calendars
@@ -51,6 +65,11 @@ LOCATION:Las Vegas Motor Speedway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: South Point 400 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-bank-of-america-400-race@race-calendars
@@ -62,6 +81,11 @@ LOCATION:Charlotte Motor Speedway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: Bank of America 400 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-freeway-insurance-500-race@race-calendars
@@ -73,6 +97,11 @@ LOCATION:Phoenix Raceway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: Freeway Insurance 500 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-yellawood-500-race@race-calendars
@@ -84,6 +113,11 @@ LOCATION:Talladega Superspeedway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: YellaWood 500 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-xfinity-500-race@race-calendars
@@ -95,6 +129,11 @@ LOCATION:Martinsville Speedway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: Xfinity 500 - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2026-nascar-championship-race-race@race-calendars
@@ -106,6 +145,11 @@ LOCATION:Homestead-Miami Speedway
 DESCRIPTION:Source: https://www.nascar.com/nascar-cup-series/2026/schedule/
   (checked 2026-09-10). End time is an estimate.
 URL:https://www.nascar.com/nascar-cup-series/2026/schedule/
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:NASCAR: NASCAR Championship Race - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nascar-2027-wheatley-vodka-clash@race-calendars

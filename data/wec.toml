@@ -6,6 +6,10 @@
 # min, 8 Hours = 480 min). Practice and qualifying end times use the 60-minute default (an estimate).
 checked = 2026-09-10
 source = "https://www.fiawec.com/en/news/fia-wec-reveals-nine-round-2027-calendar-as-series-expands/13598"
+# Hand-counted checksum: every event in this file, including seasons
+# suppressed when sportstimes catches up. Update it WITH the data, never after.
+# 34 = 24 sessions across the 3 remaining 2026 rounds + 10 all-day 2027 entries.
+expected_events = 34
 
 [[event]]
 season = 2027

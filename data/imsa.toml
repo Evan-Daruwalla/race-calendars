@@ -4,6 +4,9 @@
 # The 2027 page shows month and day only; the year comes from the page itself (its 2027 schedule).
 checked = 2026-09-10
 source = "https://www.imsa.com/weathertech/2027-schedule/"
+# Hand-counted checksum: every event in this file, including seasons
+# suppressed when sportstimes catches up. Update it WITH the data, never after.
+expected_events = 13
 event = [
   { season = 2026, start_date = 2026-09-18, end_date = 2026-09-20, name = "TireRack.com Battle On The Bricks", source = "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },
   { season = 2026, start_date = 2026-09-30, end_date = 2026-10-03, name = "Motul Petit Le Mans", source = "https://www.imsa.com/weathertech/weathertech-2026-schedule/" },

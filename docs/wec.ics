@@ -2,7 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//race-calendars//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 X-WR-CALNAME:FIA World Endurance Championship
 X-WR-CALDESC:FIA World Endurance Championship - practice\, qualifying and r
  aces. Times in UTC\; your calendar app shows them in your time zone.
@@ -18,6 +17,7 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-fuji-free-practice-2@race-calendars
@@ -29,6 +29,7 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-fuji-free-practice-3@race-calendars
@@ -40,6 +41,7 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-fuji-qualifying-lmgt3@race-calendars
@@ -51,6 +53,11 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:WEC: 6 Hours of Fuji - Qualifying - LMGT3
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-fuji-hyperpole-lmgt3@race-calendars
@@ -62,6 +69,11 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: 6 Hours of Fuji - Hyperpole - LMGT3
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-fuji-qualifying-hypercar@race-calendars
@@ -73,6 +85,11 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:WEC: 6 Hours of Fuji - Qualifying - Hypercar
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-fuji-hyperpole-hypercar@race-calendars
@@ -84,6 +101,11 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: 6 Hours of Fuji - Hyperpole - Hypercar
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-fuji-race@race-calendars
@@ -95,6 +117,11 @@ LOCATION:Fuji Speedway\, Japan
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-fuji-2026 (ch
  ecked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-fuji-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: 6 Hours of Fuji - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-free-practice-1@race-calendars
@@ -106,6 +133,7 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-free-practice-2@race-calendars
@@ -117,6 +145,7 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-free-practice-3@race-calendars
@@ -128,6 +157,7 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-qualifying-lmgt3@race-calendars
@@ -139,6 +169,11 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:WEC: 6 Hours of Barcelona - Qualifying - LMGT3
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-hyperpole-lmgt3@race-calendars
@@ -150,6 +185,11 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: 6 Hours of Barcelona - Hyperpole - LMGT3
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-qualifying-hypercar@race-calendars
@@ -161,6 +201,11 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:WEC: 6 Hours of Barcelona - Qualifying - Hypercar
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-hyperpole-hypercar@race-calendars
@@ -172,6 +217,11 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: 6 Hours of Barcelona - Hyperpole - Hypercar
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-6-hours-of-barcelona-race@race-calendars
@@ -183,6 +233,11 @@ LOCATION:Circuit de Barcelona-Catalunya\, Spain
 DESCRIPTION:Source: https://www.fiawec.com/en/race/6-hours-of-barcelona-202
  6 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/6-hours-of-barcelona-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: 6 Hours of Barcelona - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-free-practice-1@race-calenda
@@ -195,6 +250,7 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-free-practice-2@race-calenda
@@ -207,6 +263,7 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-free-practice-3@race-calenda
@@ -219,6 +276,7 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10). End time is an estimate.
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-qualifying-lmgt3@race-calend
@@ -231,6 +289,11 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:WEC: Bapco Energies 8 Hours of Bahrain - Qualifying - LMGT3
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-hyperpole-lmgt3@race-calenda
@@ -243,6 +306,11 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: Bapco Energies 8 Hours of Bahrain - Hyperpole - LMGT3
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-qualifying-hypercar@race-cal
@@ -255,6 +323,11 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:WEC: Bapco Energies 8 Hours of Bahrain - Qualifying - Hypercar
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-hyperpole-hypercar@race-cale
@@ -267,6 +340,11 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: Bapco Energies 8 Hours of Bahrain - Hyperpole - Hypercar
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2026-bapco-energies-8-hours-of-bahrain-race@race-calendars
@@ -278,6 +356,11 @@ LOCATION:Bahrain International Circuit
 DESCRIPTION:Source: https://www.fiawec.com/en/race/bapco-energies-8-hours-o
  f-bahrain-2026 (checked 2026-09-10).
 URL:https://www.fiawec.com/en/race/bapco-energies-8-hours-of-bahrain-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:WEC: Bapco Energies 8 Hours of Bahrain - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wec-2027-official-prologue-test@race-calendars

@@ -3,6 +3,9 @@
 # out automatically once sportstimes publishes indycar/2027.json with session times.
 checked = 2026-09-10
 source = "https://www.indycar.com/news/2026/08/08-12-early-2027-sked"
+# Hand-counted checksum: every event in this file, including seasons
+# suppressed when sportstimes catches up. Update it WITH the data, never after.
+expected_events = 8
 event = [
   { season = 2027, date = 2027-03-07, name = "Streets of St. Petersburg", location = "St. Petersburg, Florida" },
   { season = 2027, date = 2027-03-13, name = "Phoenix Raceway", location = "Phoenix, Arizona" },

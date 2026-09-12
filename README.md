@@ -1,10 +1,12 @@
 # race-calendars
 
 Subscribable calendars for 8 racing series, with practice, qualifying and races,
-rebuilt every day.
+rebuilt every day. Pick a series. Or take the combined feed, which carries every
+session from all eight in one subscription.
 
 | Series | Subscribe (paste into your calendar app) |
 |---|---|
+| **All 8 combined** | https://evan-daruwalla.github.io/race-calendars/all.ics |
 | Formula 1 | https://evan-daruwalla.github.io/race-calendars/f1.ics |
 | Formula E | https://evan-daruwalla.github.io/race-calendars/formula-e.ics |
 | IndyCar | https://evan-daruwalla.github.io/race-calendars/indycar.ics |

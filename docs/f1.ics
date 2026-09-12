@@ -2,7 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//race-calendars//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
 X-WR-CALNAME:Formula 1
 X-WR-CALDESC:Formula 1 - practice\, qualifying and races. Times in UTC\; yo
  ur calendar app shows them in your time zone.
@@ -18,6 +17,7 @@ LOCATION:Melbourne
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r1-australian-grand-prix-fp2@race-calendars
@@ -29,6 +29,7 @@ LOCATION:Melbourne
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r1-australian-grand-prix-fp3@race-calendars
@@ -40,6 +41,7 @@ LOCATION:Melbourne
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r1-australian-grand-prix-qualifying@race-calendars
@@ -51,6 +53,11 @@ LOCATION:Melbourne
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Australian Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r1-australian-grand-prix-gp@race-calendars
@@ -62,6 +69,11 @@ LOCATION:Melbourne
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Australian Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r2-chinese-grand-prix-fp1@race-calendars
@@ -73,6 +85,7 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r2-chinese-grand-prix-sprintqualifying@race-calendars
@@ -84,6 +97,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Chinese Grand Prix - Sprint Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r2-chinese-grand-prix-sprint@race-calendars
@@ -95,6 +113,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Chinese Grand Prix - Sprint
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r2-chinese-grand-prix-qualifying@race-calendars
@@ -106,6 +129,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Chinese Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r2-chinese-grand-prix-gp@race-calendars
@@ -117,6 +145,11 @@ LOCATION:Shanghai
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Chinese Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r3-japanese-grand-prix-fp1@race-calendars
@@ -128,6 +161,7 @@ LOCATION:Suzuka
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r3-japanese-grand-prix-fp2@race-calendars
@@ -139,6 +173,7 @@ LOCATION:Suzuka
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r3-japanese-grand-prix-fp3@race-calendars
@@ -150,6 +185,7 @@ LOCATION:Suzuka
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r3-japanese-grand-prix-qualifying@race-calendars
@@ -161,6 +197,11 @@ LOCATION:Suzuka
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Japanese Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r3-japanese-grand-prix-gp@race-calendars
@@ -172,6 +213,11 @@ LOCATION:Suzuka
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Japanese Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r4-miami-grand-prix-fp1@race-calendars
@@ -183,6 +229,7 @@ LOCATION:Miami
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r4-miami-grand-prix-sprintqualifying@race-calendars
@@ -194,6 +241,11 @@ LOCATION:Miami
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Miami Grand Prix - Sprint Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r4-miami-grand-prix-sprint@race-calendars
@@ -205,6 +257,11 @@ LOCATION:Miami
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Miami Grand Prix - Sprint
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r4-miami-grand-prix-qualifying@race-calendars
@@ -216,6 +273,11 @@ LOCATION:Miami
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Miami Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r4-miami-grand-prix-gp@race-calendars
@@ -227,6 +289,11 @@ LOCATION:Miami
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Miami Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r5-canadian-grand-prix-fp1@race-calendars
@@ -238,6 +305,7 @@ LOCATION:Montreal
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r5-canadian-grand-prix-sprintqualifying@race-calendars
@@ -249,6 +317,11 @@ LOCATION:Montreal
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Canadian Grand Prix - Sprint Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r5-canadian-grand-prix-sprint@race-calendars
@@ -260,6 +333,11 @@ LOCATION:Montreal
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Canadian Grand Prix - Sprint
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r5-canadian-grand-prix-qualifying@race-calendars
@@ -271,6 +349,11 @@ LOCATION:Montreal
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Canadian Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r5-canadian-grand-prix-gp@race-calendars
@@ -282,6 +365,11 @@ LOCATION:Montreal
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Canadian Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r6-monaco-grand-prix-fp1@race-calendars
@@ -293,6 +381,7 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r6-monaco-grand-prix-fp2@race-calendars
@@ -304,6 +393,7 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r6-monaco-grand-prix-fp3@race-calendars
@@ -315,6 +405,7 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r6-monaco-grand-prix-qualifying@race-calendars
@@ -326,6 +417,11 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Monaco Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r6-monaco-grand-prix-gp@race-calendars
@@ -337,6 +433,11 @@ LOCATION:Monte Carlo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Monaco Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r7-barcelona-catalunya-grand-prix-fp1@race-calendars
@@ -348,6 +449,7 @@ LOCATION:Barcelona
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r7-barcelona-catalunya-grand-prix-fp2@race-calendars
@@ -359,6 +461,7 @@ LOCATION:Barcelona
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r7-barcelona-catalunya-grand-prix-fp3@race-calendars
@@ -370,6 +473,7 @@ LOCATION:Barcelona
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r7-barcelona-catalunya-grand-prix-qualifying@race-calendars
@@ -381,6 +485,11 @@ LOCATION:Barcelona
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Barcelona-Catalunya Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r7-barcelona-catalunya-grand-prix-gp@race-calendars
@@ -392,6 +501,11 @@ LOCATION:Barcelona
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Barcelona-Catalunya Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r8-austrian-grand-prix-fp1@race-calendars
@@ -403,6 +517,7 @@ LOCATION:Spielberg
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r8-austrian-grand-prix-fp2@race-calendars
@@ -414,6 +529,7 @@ LOCATION:Spielberg
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r8-austrian-grand-prix-fp3@race-calendars
@@ -425,6 +541,7 @@ LOCATION:Spielberg
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r8-austrian-grand-prix-qualifying@race-calendars
@@ -436,6 +553,11 @@ LOCATION:Spielberg
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Austrian Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r8-austrian-grand-prix-gp@race-calendars
@@ -447,6 +569,11 @@ LOCATION:Spielberg
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Austrian Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r9-british-grand-prix-fp1@race-calendars
@@ -458,6 +585,7 @@ LOCATION:Silverstone
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r9-british-grand-prix-sprintqualifying@race-calendars
@@ -469,6 +597,11 @@ LOCATION:Silverstone
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: British Grand Prix - Sprint Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r9-british-grand-prix-sprint@race-calendars
@@ -480,6 +613,11 @@ LOCATION:Silverstone
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: British Grand Prix - Sprint
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r9-british-grand-prix-qualifying@race-calendars
@@ -491,6 +629,11 @@ LOCATION:Silverstone
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: British Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r9-british-grand-prix-gp@race-calendars
@@ -502,6 +645,11 @@ LOCATION:Silverstone
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: British Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r10-belgian-grand-prix-fp1@race-calendars
@@ -513,6 +661,7 @@ LOCATION:Spa-Francorchamps
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r10-belgian-grand-prix-fp2@race-calendars
@@ -524,6 +673,7 @@ LOCATION:Spa-Francorchamps
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r10-belgian-grand-prix-fp3@race-calendars
@@ -535,6 +685,7 @@ LOCATION:Spa-Francorchamps
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r10-belgian-grand-prix-qualifying@race-calendars
@@ -546,6 +697,11 @@ LOCATION:Spa-Francorchamps
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Belgian Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r10-belgian-grand-prix-gp@race-calendars
@@ -557,6 +713,11 @@ LOCATION:Spa-Francorchamps
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Belgian Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r11-hungarian-grand-prix-fp1@race-calendars
@@ -568,6 +729,7 @@ LOCATION:Budapest
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r11-hungarian-grand-prix-fp2@race-calendars
@@ -579,6 +741,7 @@ LOCATION:Budapest
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r11-hungarian-grand-prix-fp3@race-calendars
@@ -590,6 +753,7 @@ LOCATION:Budapest
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r11-hungarian-grand-prix-qualifying@race-calendars
@@ -601,6 +765,11 @@ LOCATION:Budapest
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Hungarian Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r11-hungarian-grand-prix-gp@race-calendars
@@ -612,6 +781,11 @@ LOCATION:Budapest
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Hungarian Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r12-dutch-grand-prix-fp1@race-calendars
@@ -623,6 +797,7 @@ LOCATION:Zandvoort
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r12-dutch-grand-prix-sprintqualifying@race-calendars
@@ -634,6 +809,11 @@ LOCATION:Zandvoort
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Dutch Grand Prix - Sprint Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r12-dutch-grand-prix-sprint@race-calendars
@@ -645,6 +825,11 @@ LOCATION:Zandvoort
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Dutch Grand Prix - Sprint
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r12-dutch-grand-prix-qualifying@race-calendars
@@ -656,6 +841,11 @@ LOCATION:Zandvoort
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Dutch Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r12-dutch-grand-prix-gp@race-calendars
@@ -667,6 +857,11 @@ LOCATION:Zandvoort
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Dutch Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r13-italian-grand-prix-fp1@race-calendars
@@ -678,6 +873,7 @@ LOCATION:Monza
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r13-italian-grand-prix-fp2@race-calendars
@@ -689,6 +885,7 @@ LOCATION:Monza
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r13-italian-grand-prix-fp3@race-calendars
@@ -700,6 +897,7 @@ LOCATION:Monza
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r13-italian-grand-prix-qualifying@race-calendars
@@ -711,6 +909,11 @@ LOCATION:Monza
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Italian Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r13-italian-grand-prix-gp@race-calendars
@@ -722,6 +925,11 @@ LOCATION:Monza
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Italian Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r14-spanish-grand-prix-fp1@race-calendars
@@ -733,6 +941,7 @@ LOCATION:Madrid
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r14-spanish-grand-prix-fp2@race-calendars
@@ -744,6 +953,7 @@ LOCATION:Madrid
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r14-spanish-grand-prix-fp3@race-calendars
@@ -755,6 +965,7 @@ LOCATION:Madrid
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r14-spanish-grand-prix-qualifying@race-calendars
@@ -766,6 +977,11 @@ LOCATION:Madrid
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Spanish Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r14-spanish-grand-prix-gp@race-calendars
@@ -777,6 +993,11 @@ LOCATION:Madrid
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Spanish Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r15-azerbaijan-grand-prix-fp1@race-calendars
@@ -788,6 +1009,7 @@ LOCATION:Baku
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r15-azerbaijan-grand-prix-fp2@race-calendars
@@ -799,6 +1021,7 @@ LOCATION:Baku
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r15-azerbaijan-grand-prix-fp3@race-calendars
@@ -810,6 +1033,7 @@ LOCATION:Baku
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r15-azerbaijan-grand-prix-qualifying@race-calendars
@@ -821,6 +1045,11 @@ LOCATION:Baku
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Azerbaijan Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r15-azerbaijan-grand-prix-gp@race-calendars
@@ -832,6 +1061,11 @@ LOCATION:Baku
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Azerbaijan Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r16-bahrain-malaysia-grand-prix-fp1@race-calendars
@@ -843,6 +1077,7 @@ LOCATION:Sepang
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r16-bahrain-malaysia-grand-prix-fp2@race-calendars
@@ -854,6 +1089,7 @@ LOCATION:Sepang
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r16-bahrain-malaysia-grand-prix-fp3@race-calendars
@@ -865,6 +1101,7 @@ LOCATION:Sepang
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r16-bahrain-malaysia-grand-prix-qualifying@race-calendars
@@ -876,6 +1113,11 @@ LOCATION:Sepang
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Bahrain Grand Prix (Malaysia) Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r16-bahrain-malaysia-grand-prix-gp@race-calendars
@@ -887,6 +1129,11 @@ LOCATION:Sepang
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Bahrain Grand Prix (Malaysia) Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r17-singapore-grand-prix-fp1@race-calendars
@@ -898,6 +1145,7 @@ LOCATION:Singapore
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r17-singapore-grand-prix-sprintqualifying@race-calendars
@@ -909,6 +1157,11 @@ LOCATION:Singapore
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Singapore Grand Prix - Sprint Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r17-singapore-grand-prix-sprint@race-calendars
@@ -920,6 +1173,11 @@ LOCATION:Singapore
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Singapore Grand Prix - Sprint
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r17-singapore-grand-prix-qualifying@race-calendars
@@ -931,6 +1189,11 @@ LOCATION:Singapore
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Singapore Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r17-singapore-grand-prix-gp@race-calendars
@@ -942,6 +1205,11 @@ LOCATION:Singapore
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Singapore Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r18-us-grand-prix-fp1@race-calendars
@@ -953,6 +1221,7 @@ LOCATION:Austin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r18-us-grand-prix-fp2@race-calendars
@@ -964,6 +1233,7 @@ LOCATION:Austin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r18-us-grand-prix-fp3@race-calendars
@@ -975,6 +1245,7 @@ LOCATION:Austin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r18-us-grand-prix-qualifying@race-calendars
@@ -986,6 +1257,11 @@ LOCATION:Austin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: United States Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r18-us-grand-prix-gp@race-calendars
@@ -997,6 +1273,11 @@ LOCATION:Austin
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: United States Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r19-mexican-grand-prix-fp1@race-calendars
@@ -1008,6 +1289,7 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r19-mexican-grand-prix-fp2@race-calendars
@@ -1019,6 +1301,7 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r19-mexican-grand-prix-fp3@race-calendars
@@ -1030,6 +1313,7 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r19-mexican-grand-prix-qualifying@race-calendars
@@ -1041,6 +1325,11 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Mexican Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r19-mexican-grand-prix-gp@race-calendars
@@ -1052,6 +1341,11 @@ LOCATION:Mexico City
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Mexican Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r20-brazilian-grand-prix-fp1@race-calendars
@@ -1063,6 +1357,7 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r20-brazilian-grand-prix-fp2@race-calendars
@@ -1074,6 +1369,7 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r20-brazilian-grand-prix-fp3@race-calendars
@@ -1085,6 +1381,7 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r20-brazilian-grand-prix-qualifying@race-calendars
@@ -1096,6 +1393,11 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Brazilian Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r20-brazilian-grand-prix-gp@race-calendars
@@ -1107,6 +1409,11 @@ LOCATION:Sao Paulo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Brazilian Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r21-las-vegas-grand-prix-fp1@race-calendars
@@ -1118,6 +1425,7 @@ LOCATION:Las Vegas
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r21-las-vegas-grand-prix-fp2@race-calendars
@@ -1129,6 +1437,7 @@ LOCATION:Las Vegas
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r21-las-vegas-grand-prix-fp3@race-calendars
@@ -1140,6 +1449,7 @@ LOCATION:Las Vegas
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r21-las-vegas-grand-prix-qualifying@race-calendars
@@ -1151,6 +1461,11 @@ LOCATION:Las Vegas
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Las Vegas Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r21-las-vegas-grand-prix-gp@race-calendars
@@ -1162,6 +1477,11 @@ LOCATION:Las Vegas
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Las Vegas Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r22-qatar-grand-prix-fp1@race-calendars
@@ -1173,6 +1493,7 @@ LOCATION:Doha
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r22-qatar-grand-prix-fp2@race-calendars
@@ -1184,6 +1505,7 @@ LOCATION:Doha
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r22-qatar-grand-prix-fp3@race-calendars
@@ -1195,6 +1517,7 @@ LOCATION:Doha
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r22-qatar-grand-prix-qualifying@race-calendars
@@ -1206,6 +1529,11 @@ LOCATION:Doha
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Qatar Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r22-qatar-grand-prix-gp@race-calendars
@@ -1217,6 +1545,11 @@ LOCATION:Doha
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Qatar Grand Prix - Race
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r23-abu-dhabi-grand-prix-fp1@race-calendars
@@ -1228,6 +1561,7 @@ LOCATION:Yas Marina
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r23-abu-dhabi-grand-prix-fp2@race-calendars
@@ -1239,6 +1573,7 @@ LOCATION:Yas Marina
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r23-abu-dhabi-grand-prix-fp3@race-calendars
@@ -1250,6 +1585,7 @@ LOCATION:Yas Marina
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r23-abu-dhabi-grand-prix-qualifying@race-calendars
@@ -1261,6 +1597,11 @@ LOCATION:Yas Marina
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT30M
+DESCRIPTION:F1: Abu Dhabi Grand Prix - Qualifying
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r23-abu-dhabi-grand-prix-gp@race-calendars
@@ -1272,5 +1613,10 @@ LOCATION:Yas Marina
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
  1 . End time is the typical session length.
 URL:https://github.com/sportstimes/f1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT60M
+DESCRIPTION:F1: Abu Dhabi Grand Prix - Race
+END:VALARM
 END:VEVENT
 END:VCALENDAR
