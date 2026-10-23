@@ -678,8 +678,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r14-tokyo-eprix-practice1@race-calendars
 DTSTAMP:20260910T000000Z
-DTSTART:20260724T100000Z
-DTEND:20260724T104500Z
+DTSTART:20260724T101500Z
+DTEND:20260724T110000Z
 SUMMARY:FE: Tokyo ePrix - Practice 1
 LOCATION:Tokyo
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
@@ -730,18 +730,6 @@ ACTION:DISPLAY
 TRIGGER:-PT60M
 DESCRIPTION:FE: Tokyo ePrix - Race
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:formula-e-2026-r15-tokyo-eprix-practice3@race-calendars
-DTSTAMP:20260910T000000Z
-DTSTART:20260726T043000Z
-DTEND:20260726T051500Z
-SUMMARY:FE: Tokyo ePrix - Practice 3
-LOCATION:Tokyo
-DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
- 1 . End time is the typical session length.
-URL:https://github.com/sportstimes/f1
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:formula-e-2026-r15-tokyo-eprix-qualifying@race-calendars

@@ -5,7 +5,7 @@
   },
   "formula-e": {
     "name": "Formula E",
-    "events": 82
+    "events": 81
   },
   "indycar": {
     "name": "IndyCar Series",
@@ -33,6 +33,6 @@
   },
   "all": {
     "name": "All Racing (race-calendars)",
-    "events": 537
+    "events": 536
   }
 }
