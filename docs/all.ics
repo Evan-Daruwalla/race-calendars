@@ -1182,8 +1182,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f1-2026-r17-singapore-grand-prix-qualifying@race-calendars
 DTSTAMP:20260910T000000Z
-DTSTART:20261010T133000Z
-DTEND:20261010T143000Z
+DTSTART:20261010T130000Z
+DTEND:20261010T140000Z
 SUMMARY:F1: Singapore Grand Prix - Qualifying
 LOCATION:Singapore
 DESCRIPTION:Source: sportstimes/f1 (MIT)\, https://github.com/sportstimes/f
